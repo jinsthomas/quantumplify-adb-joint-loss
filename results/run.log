@@ -1,0 +1,11 @@
+wrote results/exact_targets.csv (5 rows)
+adb-base: done at 180s
+adb-independent: done at 359s
+adb-common-shock: done at 537s
+adb-rain-stress: done at 714s
+adb-rain-cover: done at 892s
+wrote results/error_curves.csv (1500 rows)
+wrote results/queries_to_target.csv (250 rows)
+wrote results/schedule_study.csv (9 rows)
+wrote results/resources.csv (10 rows)
+total 943s

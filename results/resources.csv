@@ -1,0 +1,11 @@
+target,circuit,qubits,two_qubit_gates,single_qubit_gates,depth,two_qubit_depth
+term_expected_principal_loss_usd,A (state preparation),9,503,1538,2016,503
+term_expected_principal_loss_usd,Q (one Grover iterate),9,1229,3384,4198,1107
+term_joint_attachment_probability,A (state preparation),9,503,1370,1848,503
+term_joint_attachment_probability,Q (one Grover iterate),9,1229,3264,4078,1107
+term_portfolio_loss_exceedance_probability,A (state preparation),9,503,1436,1914,503
+term_portfolio_loss_exceedance_probability,Q (one Grover iterate),9,1229,3297,4111,1107
+term_portfolio_stop_loss_usd,A (state preparation),9,503,1559,2037,503
+term_portfolio_stop_loss_usd,Q (one Grover iterate),9,1229,3447,4261,1107
+term_both_bonds_exhausted_probability,A (state preparation),9,503,1418,1896,503
+term_both_bonds_exhausted_probability,Q (one Grover iterate),9,1229,3263,4076,1107

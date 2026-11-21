@@ -1,0 +1,1501 @@
+scenario,method,target,queries,relative_rmse
+adb-base,Monte Carlo,term_expected_principal_loss_usd,128,0.19512930550509994
+adb-base,Monte Carlo,term_joint_attachment_probability,128,0.41219924014969345
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,128,0.7746450109986935
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,128,1.0346291801578438
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,128,0.9999999999999981
+adb-base,Monte Carlo,term_expected_principal_loss_usd,256,0.14045839615585007
+adb-base,Monte Carlo,term_joint_attachment_probability,256,0.31182636360069493
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,256,0.6156764131678358
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,256,0.7397491576154441
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,256,8.718345704668002
+adb-base,Monte Carlo,term_expected_principal_loss_usd,512,0.09724180303883699
+adb-base,Monte Carlo,term_joint_attachment_probability,512,0.2216418113049581
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,512,0.4013404171083494
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,512,0.5429902950830362
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,512,8.647235867334226
+adb-base,Monte Carlo,term_expected_principal_loss_usd,1024,0.06405915893026477
+adb-base,Monte Carlo,term_joint_attachment_probability,1024,0.1407728229857124
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,1024,0.28841711146545074
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,1024,0.3939494687294763
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,1024,6.750229662006345
+adb-base,Monte Carlo,term_expected_principal_loss_usd,2048,0.04554328965129692
+adb-base,Monte Carlo,term_joint_attachment_probability,2048,0.10319823902942983
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,2048,0.22779134644814217
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,2048,0.28171112165422807
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,2048,4.8366944824454166
+adb-base,Monte Carlo,term_expected_principal_loss_usd,4096,0.032418257870533075
+adb-base,Monte Carlo,term_joint_attachment_probability,4096,0.06941195431928714
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,4096,0.1478521457735469
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,4096,0.20376178610358567
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,4096,2.229734025492296
+adb-base,Monte Carlo,term_expected_principal_loss_usd,8192,0.022639698133439006
+adb-base,Monte Carlo,term_joint_attachment_probability,8192,0.04897226202208424
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,8192,0.10234690975535006
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,8192,0.1431389924547291
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,8192,2.059425904712076
+adb-base,Monte Carlo,term_expected_principal_loss_usd,16384,0.01697141865826207
+adb-base,Monte Carlo,term_joint_attachment_probability,16384,0.0346465751955944
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,16384,0.07449588638210383
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,16384,0.089455124175631
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,16384,1.3075481629262489
+adb-base,Monte Carlo,term_expected_principal_loss_usd,32768,0.011430543330944875
+adb-base,Monte Carlo,term_joint_attachment_probability,32768,0.02472400871816573
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,32768,0.04278975625181788
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,32768,0.06290044683340704
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,32768,1.0413977671564882
+adb-base,Monte Carlo,term_expected_principal_loss_usd,65536,0.007589919852233177
+adb-base,Monte Carlo,term_joint_attachment_probability,65536,0.017432256444819102
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,65536,0.03197244110844768
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,65536,0.044716861690562104
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,65536,0.6764875875512024
+adb-base,Monte Carlo,term_expected_principal_loss_usd,131072,0.006291494089147367
+adb-base,Monte Carlo,term_joint_attachment_probability,131072,0.012909720696746682
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,131072,0.022816751874654845
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,131072,0.029839481842951467
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,131072,0.5271452574736402
+adb-base,Monte Carlo,term_expected_principal_loss_usd,262144,0.004318571305656717
+adb-base,Monte Carlo,term_joint_attachment_probability,262144,0.00850857534335039
+adb-base,Monte Carlo,term_portfolio_loss_exceedance_probability,262144,0.01769359632825349
+adb-base,Monte Carlo,term_portfolio_stop_loss_usd,262144,0.023636099955321194
+adb-base,Monte Carlo,term_both_bonds_exhausted_probability,262144,0.32949488094859797
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,128,0.09265242950347827
+adb-base,Scrambled Sobol,term_joint_attachment_probability,128,0.36714241996478364
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,128,0.7521243847410144
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,128,1.0228991273054866
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,128,17.421479118203237
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,256,0.03298320440101511
+adb-base,Scrambled Sobol,term_joint_attachment_probability,256,0.2315029489700907
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,256,0.525365506831932
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,256,0.7022351895014514
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,256,0.9999999999999981
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,512,0.02134384291459327
+adb-base,Scrambled Sobol,term_joint_attachment_probability,512,0.15197896530947363
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,512,0.3850770194007156
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,512,0.524178795745633
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,512,8.647235867334226
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,1024,0.012451133847390411
+adb-base,Scrambled Sobol,term_joint_attachment_probability,1024,0.10587118498788127
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,1024,0.23106563051688467
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,1024,0.32195645554326324
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,1024,5.67414489970791
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,2048,0.007058268410162253
+adb-base,Scrambled Sobol,term_joint_attachment_probability,2048,0.06314033019964413
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,2048,0.14343889564079942
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,2048,0.2073825668804798
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,2048,3.5222963183354103
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,4096,0.004154863955461022
+adb-base,Scrambled Sobol,term_joint_attachment_probability,4096,0.04263470501176405
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,4096,0.08400910328657302
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,4096,0.1275367102830715
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,4096,2.748314070990565
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,8192,0.0026928309788352388
+adb-base,Scrambled Sobol,term_joint_attachment_probability,8192,0.02529142457300543
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,8192,0.05366967961382945
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,8192,0.07398895609556687
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,8192,2.172188882220316
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,16384,0.0015742239927441799
+adb-base,Scrambled Sobol,term_joint_attachment_probability,16384,0.018200080114158586
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,16384,0.03468420288052995
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,16384,0.04470474855952256
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,16384,1.2495790131450906
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,32768,0.0010211046143171192
+adb-base,Scrambled Sobol,term_joint_attachment_probability,32768,0.011537979622487909
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,32768,0.022467060786273935
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,32768,0.02903611189493812
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,32768,0.9810128873548397
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,65536,0.00066401461695959
+adb-base,Scrambled Sobol,term_joint_attachment_probability,65536,0.006908287422780263
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,65536,0.013724994320114094
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,65536,0.020791482369209024
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,65536,0.6869365787213326
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,131072,0.0004607528367188
+adb-base,Scrambled Sobol,term_joint_attachment_probability,131072,0.004490046954411501
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,131072,0.009722043407407068
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,131072,0.013446917643479722
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,131072,0.47172925191498555
+adb-base,Scrambled Sobol,term_expected_principal_loss_usd,262144,0.00025783126158786707
+adb-base,Scrambled Sobol,term_joint_attachment_probability,262144,0.0024995876962134074
+adb-base,Scrambled Sobol,term_portfolio_loss_exceedance_probability,262144,0.005564987164709501
+adb-base,Scrambled Sobol,term_portfolio_stop_loss_usd,262144,0.008271402242707511
+adb-base,Scrambled Sobol,term_both_bonds_exhausted_probability,262144,0.3335918353557025
+adb-base,Stratified,term_expected_principal_loss_usd,128,0.07228132337641908
+adb-base,Stratified,term_joint_attachment_probability,128,0.21150333698197402
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,128,0.45356772174153137
+adb-base,Stratified,term_portfolio_stop_loss_usd,128,0.6030983498995794
+adb-base,Stratified,term_both_bonds_exhausted_probability,128,8.546602474120869
+adb-base,Stratified,term_expected_principal_loss_usd,256,0.04711632595088631
+adb-base,Stratified,term_joint_attachment_probability,256,0.15352494911949136
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,256,0.297035942176269
+adb-base,Stratified,term_portfolio_stop_loss_usd,256,0.3891322939631124
+adb-base,Stratified,term_both_bonds_exhausted_probability,256,4.9463071668725425
+adb-base,Stratified,term_expected_principal_loss_usd,512,0.030323787897457672
+adb-base,Stratified,term_joint_attachment_probability,512,0.0996327083424085
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,512,0.21977600980458017
+adb-base,Stratified,term_portfolio_stop_loss_usd,512,0.28319848583781254
+adb-base,Stratified,term_both_bonds_exhausted_probability,512,2.552216364112099
+adb-base,Stratified,term_expected_principal_loss_usd,1024,0.02422728813115164
+adb-base,Stratified,term_joint_attachment_probability,1024,0.07214131909434557
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,1024,0.1364875530966106
+adb-base,Stratified,term_portfolio_stop_loss_usd,1024,0.1823836011728424
+adb-base,Stratified,term_both_bonds_exhausted_probability,1024,3.1724466728145395
+adb-base,Stratified,term_expected_principal_loss_usd,2048,0.01781618958042211
+adb-base,Stratified,term_joint_attachment_probability,2048,0.05347817620340036
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,2048,0.10185553381696158
+adb-base,Stratified,term_portfolio_stop_loss_usd,2048,0.14507700810310759
+adb-base,Stratified,term_both_bonds_exhausted_probability,2048,1.7865216100287338
+adb-base,Stratified,term_expected_principal_loss_usd,4096,0.011438904434508785
+adb-base,Stratified,term_joint_attachment_probability,4096,0.03807302337962222
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,4096,0.06937365120385457
+adb-base,Stratified,term_portfolio_stop_loss_usd,4096,0.08821310545423783
+adb-base,Stratified,term_both_bonds_exhausted_probability,4096,1.5401625816239624
+adb-base,Stratified,term_expected_principal_loss_usd,8192,0.00806474174060187
+adb-base,Stratified,term_joint_attachment_probability,8192,0.025244232305134742
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,8192,0.04651907374497261
+adb-base,Stratified,term_portfolio_stop_loss_usd,8192,0.0631515663479135
+adb-base,Stratified,term_both_bonds_exhausted_probability,8192,1.103316919621954
+adb-base,Stratified,term_expected_principal_loss_usd,16384,0.005668563217490265
+adb-base,Stratified,term_joint_attachment_probability,16384,0.017722461371688047
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,16384,0.03682488166776537
+adb-base,Stratified,term_portfolio_stop_loss_usd,16384,0.04699255392105236
+adb-base,Stratified,term_both_bonds_exhausted_probability,16384,0.7912535144137339
+adb-base,Stratified,term_expected_principal_loss_usd,32768,0.0044419091112260665
+adb-base,Stratified,term_joint_attachment_probability,32768,0.012130505420044135
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,32768,0.02771476765502864
+adb-base,Stratified,term_portfolio_stop_loss_usd,32768,0.035081778924061224
+adb-base,Stratified,term_both_bonds_exhausted_probability,32768,0.5331887711659755
+adb-base,Stratified,term_expected_principal_loss_usd,65536,0.002915563265872056
+adb-base,Stratified,term_joint_attachment_probability,65536,0.009633609919447646
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,65536,0.018662265522315133
+adb-base,Stratified,term_portfolio_stop_loss_usd,65536,0.024542943955486278
+adb-base,Stratified,term_both_bonds_exhausted_probability,65536,0.3978838978174404
+adb-base,Stratified,term_expected_principal_loss_usd,131072,0.002198803348556058
+adb-base,Stratified,term_joint_attachment_probability,131072,0.006513697472277136
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,131072,0.01380346349892372
+adb-base,Stratified,term_portfolio_stop_loss_usd,131072,0.017117069640122492
+adb-base,Stratified,term_both_bonds_exhausted_probability,131072,0.26109054632532686
+adb-base,Stratified,term_expected_principal_loss_usd,262144,0.0014896903269998303
+adb-base,Stratified,term_joint_attachment_probability,262144,0.0041607363180695125
+adb-base,Stratified,term_portfolio_loss_exceedance_probability,262144,0.008713130054404168
+adb-base,Stratified,term_portfolio_stop_loss_usd,262144,0.012060978443942346
+adb-base,Stratified,term_both_bonds_exhausted_probability,262144,0.17528210115860102
+adb-base,Importance sampling,term_expected_principal_loss_usd,128,0.09723056247643949
+adb-base,Importance sampling,term_joint_attachment_probability,128,0.2804145949408786
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,128,0.2926646950510092
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,128,0.30668538146794044
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,128,4.892483942298223
+adb-base,Importance sampling,term_expected_principal_loss_usd,256,0.06810874407072963
+adb-base,Importance sampling,term_joint_attachment_probability,256,0.21035170114711566
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,256,0.21338940154406733
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,256,0.2401742081767395
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,256,2.4326137561993018
+adb-base,Importance sampling,term_expected_principal_loss_usd,512,0.046849392512179594
+adb-base,Importance sampling,term_joint_attachment_probability,512,0.1368330628509249
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,512,0.1388578089337342
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,512,0.1536398522810846
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,512,1.3994210986842666
+adb-base,Importance sampling,term_expected_principal_loss_usd,1024,0.03416135548022265
+adb-base,Importance sampling,term_joint_attachment_probability,1024,0.10664872280018704
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,1024,0.11832916563540098
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,1024,0.13043132305022775
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,1024,1.3109303695553862
+adb-base,Importance sampling,term_expected_principal_loss_usd,2048,0.022342697385924475
+adb-base,Importance sampling,term_joint_attachment_probability,2048,0.07165629966761661
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,2048,0.078941045770063
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,2048,0.08606031565037163
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,2048,0.7522590816604791
+adb-base,Importance sampling,term_expected_principal_loss_usd,4096,0.01595179644988789
+adb-base,Importance sampling,term_joint_attachment_probability,4096,0.051732760772006586
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,4096,0.053109349567121815
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,4096,0.06236988519474765
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,4096,0.5063720628143334
+adb-base,Importance sampling,term_expected_principal_loss_usd,8192,0.011618735461551996
+adb-base,Importance sampling,term_joint_attachment_probability,8192,0.03695256517456084
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,8192,0.03920430265797683
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,8192,0.04450941613674057
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,8192,0.35263549579981573
+adb-base,Importance sampling,term_expected_principal_loss_usd,16384,0.008681119333959365
+adb-base,Importance sampling,term_joint_attachment_probability,16384,0.027123673931225608
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,16384,0.02536932733513449
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,16384,0.027567145471820445
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,16384,0.28489169644113677
+adb-base,Importance sampling,term_expected_principal_loss_usd,32768,0.005935400656356055
+adb-base,Importance sampling,term_joint_attachment_probability,32768,0.018663335866774114
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,32768,0.019266099160288888
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,32768,0.021785333069735575
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,32768,0.19250532296385808
+adb-base,Importance sampling,term_expected_principal_loss_usd,65536,0.003840388287212685
+adb-base,Importance sampling,term_joint_attachment_probability,65536,0.013427195725613239
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,65536,0.013686546921246566
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,65536,0.014964900141743695
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,65536,0.13001620108867606
+adb-base,Importance sampling,term_expected_principal_loss_usd,131072,0.0029393505668625364
+adb-base,Importance sampling,term_joint_attachment_probability,131072,0.008613540351085877
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,131072,0.009597810618818496
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,131072,0.01005888250390995
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,131072,0.09429158513182895
+adb-base,Importance sampling,term_expected_principal_loss_usd,262144,0.0018862268855127514
+adb-base,Importance sampling,term_joint_attachment_probability,262144,0.006717445964502725
+adb-base,Importance sampling,term_portfolio_loss_exceedance_probability,262144,0.005767364185660951
+adb-base,Importance sampling,term_portfolio_stop_loss_usd,262144,0.007074066359711335
+adb-base,Importance sampling,term_both_bonds_exhausted_probability,262144,0.07441334677027933
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,128,0.23552335564085405
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,128,0.2513892575478114
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,128,0.5238672236714241
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,128,0.9117142323501257
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,128,13.994687852295472
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,288,0.14822013344822393
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,288,0.15551696121994363
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,288,0.27515349336498257
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,288,0.5125595356366861
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,288,5.580879603515342
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,512,0.093791039210831
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,512,0.12752490741976077
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,512,0.1721967075543083
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,512,0.2962996077964041
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,512,3.7030393220255253
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,1408,0.031912158634733574
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,1408,0.03991541481205795
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,1408,0.07154184732086288
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,1408,0.12019382971510932
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,1408,1.4539134848463078
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,2144,0.021557558067263165
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,2144,0.03947615292262246
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,2144,0.04989896110455769
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,2144,0.11244849387001757
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,2144,1.0056290618764518
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,4960,0.010692522941466415
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,4960,0.011755663199192697
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,4960,0.021949751960056805
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,4960,0.038546103032667596
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,4960,0.44200111502276107
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,11168,0.005360570072694448
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,11168,0.005303325717389841
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,11168,0.010275998507099706
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,11168,0.020878034438484468
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,11168,0.21536891650147574
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,16704,0.005250500762191363
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,16704,0.0033317886346421605
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,16704,0.008970747807352904
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,16704,0.012428043608019572
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,16704,0.14095598533853915
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,37568,0.0023578782744979785
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,37568,0.0016574353671410878
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,37568,0.004561339301048641
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,37568,0.008123931594810984
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,37568,0.06754442441677046
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,84352,0.0006039573182978157
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,84352,0.0006990852064752733
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,84352,0.0015766130141700167
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,84352,0.004000807040006096
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,84352,0.04784206696327339
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,189504,0.0003414457858013603
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,189504,0.00032684899683884256
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,189504,0.000526492684639732
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,189504,0.0011764242244713596
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,189504,0.017408533113088483
+adb-base,QAE (maximum likelihood),term_expected_principal_loss_usd,284128,0.0003167111927653916
+adb-base,QAE (maximum likelihood),term_joint_attachment_probability,284128,0.00021638231114884493
+adb-base,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,284128,0.0004623142758486019
+adb-base,QAE (maximum likelihood),term_portfolio_stop_loss_usd,284128,0.0009194099929238445
+adb-base,QAE (maximum likelihood),term_both_bonds_exhausted_probability,284128,0.008494179717890002
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,128,0.17421484701951276
+adb-independent,Monte Carlo,term_joint_attachment_probability,128,0.5518175843580349
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,128,1.0134986070336431
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,128,1.274212035461697
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,128,1.0000000000000013
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,256,0.12001452937609997
+adb-independent,Monte Carlo,term_joint_attachment_probability,256,0.39221655057305
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,256,0.6894357146617658
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,256,0.8888849656491741
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,256,1.0000000000000013
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,512,0.09300610725600644
+adb-independent,Monte Carlo,term_joint_attachment_probability,512,0.2731774248790148
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,512,0.5411263844871229
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,512,0.7274389230744734
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,512,35.13959722028926
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,1024,0.071069489739867
+adb-independent,Monte Carlo,term_joint_attachment_probability,1024,0.19573796864465587
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,1024,0.39816856487264146
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,1024,0.5251517991548701
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,1024,17.555724179942505
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,2048,0.045115228701448185
+adb-independent,Monte Carlo,term_joint_attachment_probability,2048,0.13383896450184998
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,2048,0.263625415092802
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,2048,0.3536682041710089
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,2048,19.54209264781347
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,4096,0.030779793974958464
+adb-independent,Monte Carlo,term_joint_attachment_probability,4096,0.09404460150122551
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,4096,0.19790439119899844
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,4096,0.27246279844006294
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,4096,9.72974211453758
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,8192,0.02233337553871961
+adb-independent,Monte Carlo,term_joint_attachment_probability,8192,0.07448702133556333
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,8192,0.12666460762174653
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,8192,0.17993637835094758
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,8192,4.862019958781426
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,16384,0.016173898844387805
+adb-independent,Monte Carlo,term_joint_attachment_probability,16384,0.04640896262201529
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,16384,0.08331184508498574
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,16384,0.12170522656045059
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,16384,4.2635796784575355
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,32768,0.011221944861685262
+adb-independent,Monte Carlo,term_joint_attachment_probability,32768,0.031741352865127186
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,32768,0.0660749395507529
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,32768,0.08405515361472889
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,32768,2.6872628007104398
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,65536,0.007919205667479804
+adb-independent,Monte Carlo,term_joint_attachment_probability,65536,0.025151905417101276
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,65536,0.04547470804534447
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,65536,0.05995561664146545
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,65536,1.7507374489306997
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,131072,0.005577270046567663
+adb-independent,Monte Carlo,term_joint_attachment_probability,131072,0.016125147840491467
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,131072,0.032848965546648415
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,131072,0.03977346616070905
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,131072,1.276983134973797
+adb-independent,Monte Carlo,term_expected_principal_loss_usd,262144,0.00427806046183284
+adb-independent,Monte Carlo,term_joint_attachment_probability,262144,0.01152912845606974
+adb-independent,Monte Carlo,term_portfolio_loss_exceedance_probability,262144,0.021516536125016934
+adb-independent,Monte Carlo,term_portfolio_stop_loss_usd,262144,0.02874579826132006
+adb-independent,Monte Carlo,term_both_bonds_exhausted_probability,262144,1.0474839324795795
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,128,0.08567248955147326
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,128,0.4686804841899244
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,128,0.9758006207311022
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,128,1.337105981870377
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,128,1.0000000000000013
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,256,0.03162946711228516
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,256,0.3405763596599731
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,256,0.6989943016088541
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,256,0.8813689068309422
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,256,1.0000000000000013
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,512,0.01608104251078606
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,512,0.20944858690995452
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,512,0.45278959140866826
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,512,0.6834304455495993
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,512,1.0000000000000013
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,1024,0.010730411395477491
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,1024,0.14510817543908314
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,1024,0.31868240923020325
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,1024,0.4281392695200156
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,1024,17.55572417994251
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,2048,0.006674130545667676
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,2048,0.11523783349625316
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,2048,0.23057678045679333
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,2048,0.34043955619835836
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,2048,12.383753632170267
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,4096,0.003974389197507962
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,4096,0.06357192719188164
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,4096,0.1491401275597287
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,4096,0.19080235834807824
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,4096,6.202189342979022
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,8192,0.002422735801057716
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,8192,0.04653570635057053
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,8192,0.09182032583255825
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,8192,0.11990278593846086
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,8192,6.151826296861172
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,16384,0.0016588908662397827
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,16384,0.029113536709515907
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,16384,0.05503003655846836
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,16384,0.08063460333472001
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,16384,3.23847155985331
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,32768,0.0010199000737416625
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,32768,0.017615659393936972
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,32768,0.039214290350921
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,32768,0.05421837007113694
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,32768,3.2570858027409764
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,65536,0.0006649972824324916
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,65536,0.012603603621212862
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,65536,0.025684893175462454
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,65536,0.03343530558390144
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,65536,1.7958167091166861
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,131072,0.0004552665408844033
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,131072,0.008401098997238414
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,131072,0.015823588623002472
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,131072,0.021774871610230215
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,131072,1.3070803951684693
+adb-independent,Scrambled Sobol,term_expected_principal_loss_usd,262144,0.0002919203430541112
+adb-independent,Scrambled Sobol,term_joint_attachment_probability,262144,0.005048316221495203
+adb-independent,Scrambled Sobol,term_portfolio_loss_exceedance_probability,262144,0.011166788748905448
+adb-independent,Scrambled Sobol,term_portfolio_stop_loss_usd,262144,0.014158407512601641
+adb-independent,Scrambled Sobol,term_both_bonds_exhausted_probability,262144,0.9349119050229912
+adb-independent,Stratified,term_expected_principal_loss_usd,128,0.061512836415486334
+adb-independent,Stratified,term_joint_attachment_probability,128,0.2501195757207582
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,128,0.5403913885993403
+adb-independent,Stratified,term_portfolio_stop_loss_usd,128,0.7674065234347516
+adb-independent,Stratified,term_both_bonds_exhausted_probability,128,1.0000000000000013
+adb-independent,Stratified,term_expected_principal_loss_usd,256,0.047862803764894865
+adb-independent,Stratified,term_joint_attachment_probability,256,0.20048264942923022
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,256,0.37789107500131414
+adb-independent,Stratified,term_portfolio_stop_loss_usd,256,0.4949136810275595
+adb-independent,Stratified,term_both_bonds_exhausted_probability,256,1.0000000000000013
+adb-independent,Stratified,term_expected_principal_loss_usd,512,0.03501264131208374
+adb-independent,Stratified,term_joint_attachment_probability,512,0.14395788033170753
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,512,0.2544835317615478
+adb-independent,Stratified,term_portfolio_stop_loss_usd,512,0.3507671279674603
+adb-independent,Stratified,term_both_bonds_exhausted_probability,512,1.0000000000000013
+adb-independent,Stratified,term_expected_principal_loss_usd,1024,0.024174529044056897
+adb-independent,Stratified,term_joint_attachment_probability,1024,0.10165443368645798
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,1024,0.19590926570685466
+adb-independent,Stratified,term_portfolio_stop_loss_usd,1024,0.2716930673939356
+adb-independent,Stratified,term_both_bonds_exhausted_probability,1024,7.490033152835119
+adb-independent,Stratified,term_expected_principal_loss_usd,2048,0.01813816300403271
+adb-independent,Stratified,term_joint_attachment_probability,2048,0.06806847883261187
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,2048,0.14120344023655543
+adb-independent,Stratified,term_portfolio_stop_loss_usd,2048,0.17389953216898368
+adb-independent,Stratified,term_both_bonds_exhausted_probability,2048,6.422122773305797
+adb-independent,Stratified,term_expected_principal_loss_usd,4096,0.011821535702256854
+adb-independent,Stratified,term_joint_attachment_probability,4096,0.0492647968382191
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,4096,0.10066197220344328
+adb-independent,Stratified,term_portfolio_stop_loss_usd,4096,0.13739988133533368
+adb-independent,Stratified,term_both_bonds_exhausted_probability,4096,5.573440487242512
+adb-independent,Stratified,term_expected_principal_loss_usd,8192,0.008138004614693103
+adb-independent,Stratified,term_joint_attachment_probability,8192,0.033896276508329604
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,8192,0.07648752659999833
+adb-independent,Stratified,term_portfolio_stop_loss_usd,8192,0.08913086545312056
+adb-independent,Stratified,term_both_bonds_exhausted_probability,8192,2.7316270001431606
+adb-independent,Stratified,term_expected_principal_loss_usd,16384,0.006107241330254339
+adb-independent,Stratified,term_joint_attachment_probability,16384,0.026977240873973136
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,16384,0.050899333786687116
+adb-independent,Stratified,term_portfolio_stop_loss_usd,16384,0.06599796937644949
+adb-independent,Stratified,term_both_bonds_exhausted_probability,16384,2.0044435166907757
+adb-independent,Stratified,term_expected_principal_loss_usd,32768,0.0043953721899525275
+adb-independent,Stratified,term_joint_attachment_probability,32768,0.01799870033032274
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,32768,0.03532987532419202
+adb-independent,Stratified,term_portfolio_stop_loss_usd,32768,0.049776318574768455
+adb-independent,Stratified,term_both_bonds_exhausted_probability,32768,1.4915504806450806
+adb-independent,Stratified,term_expected_principal_loss_usd,65536,0.0029468236778778583
+adb-independent,Stratified,term_joint_attachment_probability,65536,0.012349640985300683
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,65536,0.025495149186301174
+adb-independent,Stratified,term_portfolio_stop_loss_usd,65536,0.034195184937655325
+adb-independent,Stratified,term_both_bonds_exhausted_probability,65536,1.214756087026027
+adb-independent,Stratified,term_expected_principal_loss_usd,131072,0.002032335136926284
+adb-independent,Stratified,term_joint_attachment_probability,131072,0.007678217766252936
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,131072,0.01595363717990477
+adb-independent,Stratified,term_portfolio_stop_loss_usd,131072,0.021495873655074
+adb-independent,Stratified,term_both_bonds_exhausted_probability,131072,0.7558264127482365
+adb-independent,Stratified,term_expected_principal_loss_usd,262144,0.0015276318244084766
+adb-independent,Stratified,term_joint_attachment_probability,262144,0.006101634190601899
+adb-independent,Stratified,term_portfolio_loss_exceedance_probability,262144,0.013261145500224503
+adb-independent,Stratified,term_portfolio_stop_loss_usd,262144,0.017241829489033165
+adb-independent,Stratified,term_both_bonds_exhausted_probability,262144,0.5817984415763819
+adb-independent,Importance sampling,term_expected_principal_loss_usd,128,0.08908368197405228
+adb-independent,Importance sampling,term_joint_attachment_probability,128,0.2881401336518619
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,128,0.3073570005695672
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,128,0.32766708710797987
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,128,7.479211660494788
+adb-independent,Importance sampling,term_expected_principal_loss_usd,256,0.062495759837140764
+adb-independent,Importance sampling,term_joint_attachment_probability,256,0.1958083947900903
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,256,0.21398706837442255
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,256,0.22561054435836617
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,256,3.5759120727674074
+adb-independent,Importance sampling,term_expected_principal_loss_usd,512,0.04309390102679888
+adb-independent,Importance sampling,term_joint_attachment_probability,512,0.14437670534161728
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,512,0.1545363568790284
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,512,0.1620400194235062
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,512,2.2081948101598265
+adb-independent,Importance sampling,term_expected_principal_loss_usd,1024,0.03439075875666667
+adb-independent,Importance sampling,term_joint_attachment_probability,1024,0.09993693024081782
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,1024,0.11481072956446817
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,1024,0.1199021800944505
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,1024,2.087932118388707
+adb-independent,Importance sampling,term_expected_principal_loss_usd,2048,0.023593300002839598
+adb-independent,Importance sampling,term_joint_attachment_probability,2048,0.06911861194606496
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,2048,0.07760676741728544
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,2048,0.08018096681650698
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,2048,1.3652815287696776
+adb-independent,Importance sampling,term_expected_principal_loss_usd,4096,0.0175421732484625
+adb-independent,Importance sampling,term_joint_attachment_probability,4096,0.050667608230566964
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,4096,0.05456282121660525
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,4096,0.059548933382486506
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,4096,1.0237046105205312
+adb-independent,Importance sampling,term_expected_principal_loss_usd,8192,0.011678204954355375
+adb-independent,Importance sampling,term_joint_attachment_probability,8192,0.03640343617875631
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,8192,0.04211240088306876
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,8192,0.04643683086383166
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,8192,0.7403215397602955
+adb-independent,Importance sampling,term_expected_principal_loss_usd,16384,0.007984945662933205
+adb-independent,Importance sampling,term_joint_attachment_probability,16384,0.02560668258598091
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,16384,0.02643165951228406
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,16384,0.030441912908054144
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,16384,0.5199661780155164
+adb-independent,Importance sampling,term_expected_principal_loss_usd,32768,0.005730848280516668
+adb-independent,Importance sampling,term_joint_attachment_probability,32768,0.01652480887390589
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,32768,0.020106390857753488
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,32768,0.023291758463100165
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,32768,0.33952910562221833
+adb-independent,Importance sampling,term_expected_principal_loss_usd,65536,0.003957193378370232
+adb-independent,Importance sampling,term_joint_attachment_probability,65536,0.011327557769028095
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,65536,0.013256047599767848
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,65536,0.013353757093419478
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,65536,0.2606628400100061
+adb-independent,Importance sampling,term_expected_principal_loss_usd,131072,0.0028213421514683896
+adb-independent,Importance sampling,term_joint_attachment_probability,131072,0.008008197477369507
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,131072,0.009835890060082933
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,131072,0.010164641844248005
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,131072,0.18697720730022793
+adb-independent,Importance sampling,term_expected_principal_loss_usd,262144,0.002132522701990589
+adb-independent,Importance sampling,term_joint_attachment_probability,262144,0.005640923790814775
+adb-independent,Importance sampling,term_portfolio_loss_exceedance_probability,262144,0.007028450256489327
+adb-independent,Importance sampling,term_portfolio_stop_loss_usd,262144,0.007547922117062138
+adb-independent,Importance sampling,term_both_bonds_exhausted_probability,262144,0.12863396428414733
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,128,0.19343727426081006
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,128,0.3228635892089643
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,128,0.7021335006245951
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,128,1.2579954198895307
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,128,0.9999999999999996
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,288,0.15383011474709685
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,288,0.1842578071313567
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,288,0.3700348496275001
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,288,0.6150652545789476
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,288,16.034289304249103
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,512,0.08609066880257553
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,512,0.1302477679754504
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,512,0.21766866713262203
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,512,0.39404165786981227
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,512,11.59591144455843
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,1408,0.03081293197205933
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,1408,0.04972210887377405
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,1408,0.13836202858844354
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,1408,0.1677415699029422
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,1408,3.3677541451602
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,2144,0.021924805461718322
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,2144,0.03374693213417382
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,2144,0.06975956760490674
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,2144,0.13499192419023406
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,2144,2.2561769920890287
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,4960,0.00884196637154314
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,4960,0.015062230677572088
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,4960,0.054546068834604056
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,4960,0.05646725399675456
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,4960,1.2161558819627067
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,11168,0.005782675944438301
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,11168,0.007011931188455736
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,11168,0.013483823434849818
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,11168,0.024660649244683253
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,11168,0.5841551814881059
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,16704,0.0046785629215246516
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,16704,0.004504828742559159
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,16704,0.00885234634925859
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,16704,0.022415341471287428
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,16704,0.33664741987443886
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,37568,0.0024651678485397024
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,37568,0.0020113146822757265
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,37568,0.008474325856436433
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,37568,0.0072257432876997926
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,37568,0.16787220634522476
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,84352,0.0005826720042617147
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,84352,0.000848986190973788
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,84352,0.0017550527837545359
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,84352,0.0032850317659127563
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,84352,0.0893366724890496
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,189504,0.00032537996079758715
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,189504,0.0004127062666503786
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,189504,0.0008470882073943994
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,189504,0.002042889438467362
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,189504,0.03615204317445026
+adb-independent,QAE (maximum likelihood),term_expected_principal_loss_usd,284128,0.00027485040991113594
+adb-independent,QAE (maximum likelihood),term_joint_attachment_probability,284128,0.00025983292137717745
+adb-independent,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,284128,0.0005637537137217181
+adb-independent,QAE (maximum likelihood),term_portfolio_stop_loss_usd,284128,0.0018211607517890944
+adb-independent,QAE (maximum likelihood),term_both_bonds_exhausted_probability,284128,0.021997866288378354
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,128,0.18924923471406008
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,128,0.38417336200263785
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,128,0.7432147224613525
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,128,1.0164170472652891
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,128,12.523799870799253
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,256,0.13857560184194923
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,256,0.2800628478548975
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,256,0.5106432054641388
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,256,0.6425388092719698
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,256,6.286295754507027
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,512,0.096407161162817
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,512,0.20122308710550407
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,512,0.39986063602237143
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,512,0.5246308438892808
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,512,4.451390869014009
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,1024,0.06845981881301857
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,1024,0.13386141020421383
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,1024,0.2554945077328412
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,1024,0.3172347040190852
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,1024,5.064563216902369
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,2048,0.046032154887240204
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,2048,0.09565556563972964
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,2048,0.17792674953083806
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,2048,0.22913668956485428
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,2048,3.7202678303701084
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,4096,0.032321866218845016
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,4096,0.07268041842216269
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,4096,0.11923059254699453
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,4096,0.15660873717028984
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,4096,2.249708104241726
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,8192,0.024509428572252166
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,8192,0.043744380138532137
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,8192,0.08473250826217231
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,8192,0.10754986932723981
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,8192,1.7917839676281497
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,16384,0.018745740878351
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,16384,0.03645534288884257
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,16384,0.06633088241876642
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,16384,0.08790589363124941
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,16384,1.240200673015942
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,32768,0.012409834848051594
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,32768,0.023890564446917627
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,32768,0.04609753462073351
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,32768,0.060906621944487725
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,32768,0.8606833149007048
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,65536,0.008521586568777452
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,65536,0.016586896930242005
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,65536,0.03134843555463278
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,65536,0.04264041404841509
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,65536,0.6028019748440431
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,131072,0.00570422744259083
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,131072,0.013508756104174034
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,131072,0.022210966707557865
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,131072,0.029288332549612987
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,131072,0.45088685180244137
+adb-common-shock,Monte Carlo,term_expected_principal_loss_usd,262144,0.004352604472791772
+adb-common-shock,Monte Carlo,term_joint_attachment_probability,262144,0.008754000283568413
+adb-common-shock,Monte Carlo,term_portfolio_loss_exceedance_probability,262144,0.014461474165500058
+adb-common-shock,Monte Carlo,term_portfolio_stop_loss_usd,262144,0.020307998097772093
+adb-common-shock,Monte Carlo,term_both_bonds_exhausted_probability,262144,0.28772892081488444
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,128,0.09970188845927729
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,128,0.3046697800160447
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,128,0.5968196367524055
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,128,0.850336350426997
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,128,12.523799870799266
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,256,0.03859324359303157
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,256,0.22022383768352632
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,256,0.479220014924734
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,256,0.5799278712669615
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,256,10.795950302747714
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,512,0.02259987118986159
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,512,0.12962942621480822
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,512,0.25074317977807026
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,512,0.37878378198794793
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,512,6.215284493688341
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,1024,0.013113673749102375
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,1024,0.09648363072376809
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,1024,0.17684603249340466
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,1024,0.2624035773809338
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,1024,4.350531886228525
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,2048,0.007108610544199565
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,2048,0.0624764140068212
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,2048,0.08194884315460615
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,2048,0.1595323554400519
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,2048,3.1757341245383652
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,4096,0.004471961779994069
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,4096,0.03735200769596427
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,4096,0.06292381989193815
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,4096,0.08591742961657418
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,4096,2.183084918454816
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,8192,0.002400529446765234
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,8192,0.025408273252249588
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,8192,0.03902700991597016
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,8192,0.04973185816080313
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,8192,1.905544539243079
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,16384,0.0014742133613685196
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,16384,0.016449702700970868
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,16384,0.02523307188693187
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,16384,0.03046611134587024
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,16384,1.1882395231986917
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,32768,0.0009510378611721863
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,32768,0.009749097254897358
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,32768,0.016212749021935712
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,32768,0.02148352380334464
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,32768,0.8147133787122185
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,65536,0.0006494185950559764
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,65536,0.006313141510785485
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,65536,0.010608353616050888
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,65536,0.013577848943567191
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,65536,0.571520798987525
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,131072,0.0004329387216455591
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,131072,0.00395462296051145
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,131072,0.006113096050700455
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,131072,0.009317392782192709
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,131072,0.4111395146013608
+adb-common-shock,Scrambled Sobol,term_expected_principal_loss_usd,262144,0.00026915960261564715
+adb-common-shock,Scrambled Sobol,term_joint_attachment_probability,262144,0.002252180777470065
+adb-common-shock,Scrambled Sobol,term_portfolio_loss_exceedance_probability,262144,0.004315364202991938
+adb-common-shock,Scrambled Sobol,term_portfolio_stop_loss_usd,262144,0.005935522601752733
+adb-common-shock,Scrambled Sobol,term_both_bonds_exhausted_probability,262144,0.2690264949777829
+adb-common-shock,Stratified,term_expected_principal_loss_usd,128,0.07630999896600955
+adb-common-shock,Stratified,term_joint_attachment_probability,128,0.1918164127543555
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,128,0.3819803299795868
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,128,0.472770888245058
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,128,3.614707753764906
+adb-common-shock,Stratified,term_expected_principal_loss_usd,256,0.051403862617858835
+adb-common-shock,Stratified,term_joint_attachment_probability,256,0.11944042586462633
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,256,0.2524621841947106
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,256,0.33969653323134563
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,256,5.129299646953402
+adb-common-shock,Stratified,term_expected_principal_loss_usd,512,0.03510978831245856
+adb-common-shock,Stratified,term_joint_attachment_probability,512,0.09766463921890002
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,512,0.18243070967401726
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,512,0.24567289214645602
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,512,2.602085675794982
+adb-common-shock,Stratified,term_expected_principal_loss_usd,1024,0.025405984019515677
+adb-common-shock,Stratified,term_joint_attachment_probability,1024,0.06609668748837441
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,1024,0.138524324811975
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,1024,0.1697536883500693
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,1024,2.407391691928379
+adb-common-shock,Stratified,term_expected_principal_loss_usd,2048,0.016900984462982778
+adb-common-shock,Stratified,term_joint_attachment_probability,2048,0.0443172706924998
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,2048,0.08612183297251857
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,2048,0.11978493176991631
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,2048,1.5863702290937958
+adb-common-shock,Stratified,term_expected_principal_loss_usd,4096,0.011685877133565909
+adb-common-shock,Stratified,term_joint_attachment_probability,4096,0.03254188526782684
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,4096,0.061968483718097225
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,4096,0.08256841081029795
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,4096,1.1606853242788355
+adb-common-shock,Stratified,term_expected_principal_loss_usd,8192,0.008756588792105028
+adb-common-shock,Stratified,term_joint_attachment_probability,8192,0.02266667709966313
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,8192,0.04591500506215643
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,8192,0.06421965644864025
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,8192,0.7649955460898524
+adb-common-shock,Stratified,term_expected_principal_loss_usd,16384,0.006251312631695853
+adb-common-shock,Stratified,term_joint_attachment_probability,16384,0.017662565675800438
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,16384,0.03315518851261872
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,16384,0.0429238791255625
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,16384,0.6211457700712262
+adb-common-shock,Stratified,term_expected_principal_loss_usd,32768,0.004527017565804335
+adb-common-shock,Stratified,term_joint_attachment_probability,32768,0.011341836237395746
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,32768,0.023002081398873747
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,32768,0.02944630318861702
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,32768,0.4236510818989363
+adb-common-shock,Stratified,term_expected_principal_loss_usd,65536,0.0031897984072865567
+adb-common-shock,Stratified,term_joint_attachment_probability,65536,0.007823332303162817
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,65536,0.015081254711839623
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,65536,0.020371083231268336
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,65536,0.2938107169130521
+adb-common-shock,Stratified,term_expected_principal_loss_usd,131072,0.0020581738027345906
+adb-common-shock,Stratified,term_joint_attachment_probability,131072,0.005774169814215439
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,131072,0.009364047858518918
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,131072,0.013596348598232525
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,131072,0.2251402543284344
+adb-common-shock,Stratified,term_expected_principal_loss_usd,262144,0.0016197541880959721
+adb-common-shock,Stratified,term_joint_attachment_probability,262144,0.0038930214304519605
+adb-common-shock,Stratified,term_portfolio_loss_exceedance_probability,262144,0.007912699558661316
+adb-common-shock,Stratified,term_portfolio_stop_loss_usd,262144,0.010240449709883326
+adb-common-shock,Stratified,term_both_bonds_exhausted_probability,262144,0.15738916869779176
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,128,0.09598684643821709
+adb-common-shock,Importance sampling,term_joint_attachment_probability,128,0.2523135974292202
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,128,0.2661562508952589
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,128,0.31297734916731956
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,128,2.6155069444710275
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,256,0.06455898452413096
+adb-common-shock,Importance sampling,term_joint_attachment_probability,256,0.1639706277921335
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,256,0.18254017441779835
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,256,0.23331793037203485
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,256,2.115016403306689
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,512,0.048651276035630554
+adb-common-shock,Importance sampling,term_joint_attachment_probability,512,0.13883417380034305
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,512,0.1335867187092518
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,512,0.14728103341922108
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,512,1.435197698182449
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,1024,0.030506822198913264
+adb-common-shock,Importance sampling,term_joint_attachment_probability,1024,0.08851146201112627
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,1024,0.09216244254628106
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,1024,0.10061584884521693
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,1024,0.8922791472679495
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,2048,0.024306829959822772
+adb-common-shock,Importance sampling,term_joint_attachment_probability,2048,0.07076749948557588
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,2048,0.06559917733889563
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,2048,0.07809197401326405
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,2048,0.7180738159273297
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,4096,0.01786704323176592
+adb-common-shock,Importance sampling,term_joint_attachment_probability,4096,0.046094396371661
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,4096,0.04687223808137195
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,4096,0.05547830635876462
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,4096,0.4720681062585999
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,8192,0.01212580267025653
+adb-common-shock,Importance sampling,term_joint_attachment_probability,8192,0.03287234529127413
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,8192,0.036791306798005276
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,8192,0.040692660918861145
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,8192,0.3799510143042567
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,16384,0.008169932461940525
+adb-common-shock,Importance sampling,term_joint_attachment_probability,16384,0.020936438703014884
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,16384,0.024088511201275243
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,16384,0.026904002084445346
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,16384,0.22258326950825313
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,32768,0.0060009957169973255
+adb-common-shock,Importance sampling,term_joint_attachment_probability,32768,0.016805188498736863
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,32768,0.017764770612467347
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,32768,0.019626399007961932
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,32768,0.17454214028544338
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,65536,0.004173202519767388
+adb-common-shock,Importance sampling,term_joint_attachment_probability,65536,0.01163112997667419
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,65536,0.012477268866047813
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,65536,0.013496679517852335
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,65536,0.13737617513238107
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,131072,0.0028944320122286974
+adb-common-shock,Importance sampling,term_joint_attachment_probability,131072,0.00780710218024707
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,131072,0.007549113529772147
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,131072,0.008817650344869067
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,131072,0.08399295404785694
+adb-common-shock,Importance sampling,term_expected_principal_loss_usd,262144,0.002217954160174514
+adb-common-shock,Importance sampling,term_joint_attachment_probability,262144,0.006222917577757628
+adb-common-shock,Importance sampling,term_portfolio_loss_exceedance_probability,262144,0.006207926821842731
+adb-common-shock,Importance sampling,term_portfolio_stop_loss_usd,262144,0.0068425448228902645
+adb-common-shock,Importance sampling,term_both_bonds_exhausted_probability,262144,0.059989426509404836
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,128,0.2427866729768745
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,128,0.23108333731064615
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,128,0.4165197175270639
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,128,0.8135907832938462
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,128,7.07906985041092
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,288,0.1786070980752532
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,288,0.14476540675906907
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,288,0.255560933845502
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,288,0.42269544555682903
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,288,4.230374041753141
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,512,0.08129776177771733
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,512,0.0758792099052629
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,512,0.15038583757317903
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,512,0.27814445514690317
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,512,3.0343527711553175
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,1408,0.029960929660016983
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,1408,0.03556509903811919
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,1408,0.05995605349233963
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,1408,0.11279859404160712
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,1408,1.305467109173858
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,2144,0.021317522471560466
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,2144,0.025730876036105903
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,2144,0.05606752667619244
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,2144,0.07763231100465452
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,2144,0.9291665454222665
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,4960,0.009620027156296394
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,4960,0.011947601230929701
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,4960,0.018854976801452882
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,4960,0.03547972187542104
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,4960,0.3936292965046385
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,11168,0.005227134457325572
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,11168,0.006366368274730825
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,11168,0.008967844758247013
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,11168,0.018527436819233915
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,11168,0.1717008577199375
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,16704,0.005190479410178646
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,16704,0.0036343017552325847
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,16704,0.00528162700952099
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,16704,0.010326356551315722
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,16704,0.11082775647969743
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,37568,0.0022484931501313963
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,37568,0.0014977871744579559
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,37568,0.0025422397068378096
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,37568,0.004554694007624243
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,37568,0.049755290501718355
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,84352,0.0005857312987000611
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,84352,0.0006378684461920468
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,84352,0.0012965509591816695
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,84352,0.003018758809941986
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,84352,0.022950052442171895
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,189504,0.00036025942346440366
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,189504,0.0002915537119079226
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,189504,0.0005669175361603474
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,189504,0.001317402356091322
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,189504,0.010233293493416635
+adb-common-shock,QAE (maximum likelihood),term_expected_principal_loss_usd,284128,0.00023524065233913123
+adb-common-shock,QAE (maximum likelihood),term_joint_attachment_probability,284128,0.00021031899269199949
+adb-common-shock,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,284128,0.0003359482953977778
+adb-common-shock,QAE (maximum likelihood),term_portfolio_stop_loss_usd,284128,0.0006974206350408991
+adb-common-shock,QAE (maximum likelihood),term_both_bonds_exhausted_probability,284128,0.007292335521071757
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,128,0.16368957176034984
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,128,0.3009315054964549
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,128,0.7330979879920826
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,128,1.0557335690953817
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,128,0.999999999999999
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,256,0.12377610468229697
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,256,0.22528328102209783
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,256,0.5415446708882273
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,256,0.7294559600098123
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,256,8.816791015389393
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,512,0.08269765045421407
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,512,0.1673583187965498
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,512,0.3665504208847912
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,512,0.5115094416589067
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,512,2.1669705788560085
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,1024,0.060157731219799754
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,1024,0.10261069051001175
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,1024,0.25579769931985813
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,1024,0.36324851047113704
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,1024,2.9463255417467855
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,2048,0.044281194958399224
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,2048,0.07960220221208945
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,2048,0.18018535872941258
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,2048,0.25035570646592786
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,2048,2.5463716558262632
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,4096,0.02834026284573688
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,4096,0.054706119307440286
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,4096,0.1473496273218156
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,4096,0.19550422419944186
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,4096,1.6888499028644197
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,8192,0.02071079394730009
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,8192,0.04275760498663275
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,8192,0.09949862542763636
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,8192,0.12410477907803245
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,8192,1.3337480987566463
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,16384,0.014890176778427572
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,16384,0.029027206155851654
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,16384,0.060720536127659513
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,16384,0.08555551529211544
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,16384,0.9854171785869971
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,32768,0.011192556810415779
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,32768,0.01984503022967975
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,32768,0.050648691108921444
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,32768,0.07066201654353779
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,32768,0.6323333232937314
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,65536,0.007501611410999273
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,65536,0.013501798258004807
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,65536,0.03291689696392517
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,65536,0.045026012687761616
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,65536,0.42241380351441743
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,131072,0.005191977391388275
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,131072,0.00982825727492606
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,131072,0.022816987342468956
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,131072,0.03209516200797613
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,131072,0.326666411991641
+adb-rain-stress,Monte Carlo,term_expected_principal_loss_usd,262144,0.00359771022322021
+adb-rain-stress,Monte Carlo,term_joint_attachment_probability,262144,0.0070158436869803675
+adb-rain-stress,Monte Carlo,term_portfolio_loss_exceedance_probability,262144,0.016267688064258178
+adb-rain-stress,Monte Carlo,term_portfolio_stop_loss_usd,262144,0.021480595802879296
+adb-rain-stress,Monte Carlo,term_both_bonds_exhausted_probability,262144,0.23136473279805642
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,128,0.08107655999128285
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,128,0.27884650854115317
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,128,0.7382031356024085
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,128,0.9523385110837903
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,128,13.73137349144368
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,256,0.030648619107992162
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,256,0.1722729959196432
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,256,0.49402402680022395
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,256,0.6277158787590893
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,256,6.858679339743979
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,512,0.019061190703253194
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,512,0.1128652510808796
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,512,0.34277634159413417
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,512,0.49133769370891583
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,512,5.528660951534319
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,1024,0.01167554867046342
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,1024,0.07179164129133463
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,1024,0.22042358051175234
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,1024,0.3204931163895122
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,1024,3.6373096801855462
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,2048,0.006461631418363193
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,2048,0.04766065778648897
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,2048,0.1384559715684972
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,2048,0.184855464591962
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,2048,2.708769948074175
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,4096,0.003785486661442358
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,4096,0.02831489844268101
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,4096,0.08130236989403752
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,4096,0.11165858037998265
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,4096,1.806157563705277
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,8192,0.0025046941968110896
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,8192,0.022083104473218807
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,8192,0.052499715679902824
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,8192,0.06827022764974963
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,8192,1.2142436278330333
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,16384,0.0012737670538584627
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,16384,0.013072760189547113
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,16384,0.030876030471068593
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,16384,0.039330655402654534
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,16384,1.0429487839260838
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,32768,0.0009113181096066786
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,32768,0.007845832631480186
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,32768,0.02260656581858534
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,32768,0.028186825856715943
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,32768,0.6375082590028386
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,65536,0.0006722977069551114
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,65536,0.005649430771369651
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,65536,0.014896116724251124
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,65536,0.019628675581628202
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,65536,0.44263731042650345
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,131072,0.0004342559792685836
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,131072,0.003385184788343997
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,131072,0.009033525450791178
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,131072,0.013078393039480846
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,131072,0.32446125110377577
+adb-rain-stress,Scrambled Sobol,term_expected_principal_loss_usd,262144,0.00023901409343856912
+adb-rain-stress,Scrambled Sobol,term_joint_attachment_probability,262144,0.001707717231752901
+adb-rain-stress,Scrambled Sobol,term_portfolio_loss_exceedance_probability,262144,0.005102135458634888
+adb-rain-stress,Scrambled Sobol,term_portfolio_stop_loss_usd,262144,0.007621301001698927
+adb-rain-stress,Scrambled Sobol,term_both_bonds_exhausted_probability,262144,0.2089302481001893
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,128,0.07482774463765246
+adb-rain-stress,Stratified,term_joint_attachment_probability,128,0.18744392349045502
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,128,0.43961456295100143
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,128,0.5759256523417757
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,128,7.448720446568716
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,256,0.05084149112480662
+adb-rain-stress,Stratified,term_joint_attachment_probability,256,0.12763389211949844
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,256,0.3340094217873431
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,256,0.4465584999622093
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,256,4.596756785962341
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,512,0.035806461236167486
+adb-rain-stress,Stratified,term_joint_attachment_probability,512,0.08943748067005285
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,512,0.22065219864566693
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,512,0.293201735663856
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,512,3.0302270500158
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,1024,0.02662188889461003
+adb-rain-stress,Stratified,term_joint_attachment_probability,1024,0.06207057857368951
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,1024,0.15673719471722383
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,1024,0.19519021169570724
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,1024,1.9824931711260037
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,2048,0.019058471204650002
+adb-rain-stress,Stratified,term_joint_attachment_probability,2048,0.04770410754165939
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,2048,0.11438904528334987
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,2048,0.15154151582537603
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,2048,1.6140526187181086
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,4096,0.012523445542858651
+adb-rain-stress,Stratified,term_joint_attachment_probability,4096,0.03331870101620183
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,4096,0.07500678626214984
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,4096,0.10538688661532147
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,4096,1.0900277783635042
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,8192,0.009759438210504349
+adb-rain-stress,Stratified,term_joint_attachment_probability,8192,0.02262076496557274
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,8192,0.054120657078329165
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,8192,0.06520946732546282
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,8192,0.8193367443997268
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,16384,0.006578600871143892
+adb-rain-stress,Stratified,term_joint_attachment_probability,16384,0.014547168051146508
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,16384,0.03855462971867556
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,16384,0.05397897197221667
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,16384,0.5738374615245554
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,32768,0.00452656324893111
+adb-rain-stress,Stratified,term_joint_attachment_probability,32768,0.01073250527814975
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,32768,0.027746891436313
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,32768,0.03663672591764205
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,32768,0.422706752356053
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,65536,0.003246453505240227
+adb-rain-stress,Stratified,term_joint_attachment_probability,65536,0.008200610378598273
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,65536,0.018879447356631857
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,65536,0.0246341169721566
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,65536,0.28074454369466656
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,131072,0.0025332041214863876
+adb-rain-stress,Stratified,term_joint_attachment_probability,131072,0.005695214911726595
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,131072,0.015232159505434882
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,131072,0.01888575010339365
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,131072,0.19222263024313607
+adb-rain-stress,Stratified,term_expected_principal_loss_usd,262144,0.0018068263130727221
+adb-rain-stress,Stratified,term_joint_attachment_probability,262144,0.0038277284945673947
+adb-rain-stress,Stratified,term_portfolio_loss_exceedance_probability,262144,0.01044292890976267
+adb-rain-stress,Stratified,term_portfolio_stop_loss_usd,262144,0.01320341471419752
+adb-rain-stress,Stratified,term_both_bonds_exhausted_probability,262144,0.14876631909458218
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,128,0.08447144427521981
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,128,0.2511412808368862
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,128,0.28001716436801577
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,128,0.3296578114614921
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,128,2.9931016429438975
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,256,0.06292131030524405
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,256,0.17576326378019883
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,256,0.20949415623868048
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,256,0.21923017217025473
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,256,1.573870555599721
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,512,0.043947930181349
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,512,0.12346947401135872
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,512,0.14646437610253923
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,512,0.16660128463834528
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,512,0.9525651278867597
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,1024,0.02808736399186531
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,1024,0.08536767947940473
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,1024,0.10432778375767925
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,1024,0.1228172337631926
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,1024,0.7765689155607249
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,2048,0.021909487541814814
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,2048,0.0623648616124818
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,2048,0.07578680115426113
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,2048,0.08560753580237666
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,2048,0.5568636999999266
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,4096,0.015045481151196716
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,4096,0.04307252509424402
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,4096,0.053042627288122556
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,4096,0.05705957262444241
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,4096,0.40279684143541156
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,8192,0.01123535413253457
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,8192,0.034464837628106725
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,8192,0.036762762346901026
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,8192,0.04589557856628081
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,8192,0.257533569756942
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,16384,0.007132780063906464
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,16384,0.023155492006898423
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,16384,0.027753959204051708
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,16384,0.02952699427888804
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,16384,0.19495120905249153
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,32768,0.005363721395397898
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,32768,0.015359402280435279
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,32768,0.01777941636910893
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,32768,0.019732488674455605
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,32768,0.1281892938681583
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,65536,0.004026480848857125
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,65536,0.011234735133700092
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,65536,0.012024820712614402
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,65536,0.013180553628248402
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,65536,0.09175600024667788
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,131072,0.0027487428324206586
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,131072,0.0077769674457880186
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,131072,0.008736718472477686
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,131072,0.009816266183605035
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,131072,0.06576870567986502
+adb-rain-stress,Importance sampling,term_expected_principal_loss_usd,262144,0.002058111051103944
+adb-rain-stress,Importance sampling,term_joint_attachment_probability,262144,0.005478389323972832
+adb-rain-stress,Importance sampling,term_portfolio_loss_exceedance_probability,262144,0.006468014165515786
+adb-rain-stress,Importance sampling,term_portfolio_stop_loss_usd,262144,0.007255028207567544
+adb-rain-stress,Importance sampling,term_both_bonds_exhausted_probability,262144,0.049010450520479656
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,128,0.20550414900881467
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,128,0.19103377246909448
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,128,0.5173048831594247
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,128,0.9297058795656283
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,128,6.377571419998164
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,288,0.19879844180816006
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,288,0.18663519737181603
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,288,0.27781160374160874
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,288,0.5255645944904459
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,288,3.8072128263865
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,512,0.06934563754056006
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,512,0.07428162067555533
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,512,0.16156800691269727
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,512,0.32435890027256975
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,512,2.4789334553973075
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,1408,0.052682166816672434
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,1408,0.042973697427848775
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,1408,0.07359177977790705
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,1408,0.13161629359143398
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,1408,0.955272854687204
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,2144,0.042273270992589485
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,2144,0.03802702836627499
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,2144,0.052355483950670724
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,2144,0.13117282125435714
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,2144,0.6800517636623062
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,4960,0.007465690970969483
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,4960,0.010409420833662728
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,4960,0.02399350655524958
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,4960,0.05153084931803172
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,4960,0.3029278714688827
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,11168,0.005277048501438747
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,11168,0.00374756292122766
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,11168,0.009933896277624348
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,11168,0.019574118574048366
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,11168,0.13964032923560277
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,16704,0.003156915082894226
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,16704,0.0028561340196019717
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,16704,0.007350692585058199
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,16704,0.014412935388639986
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,16704,0.12445521184243086
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,37568,0.0012531016877757367
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,37568,0.0016454210572038207
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,37568,0.00305219435882674
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,37568,0.005147433326870231
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,37568,0.057858624539710496
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,84352,0.0005845961411842108
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,84352,0.0004980403880448283
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,84352,0.001258607013115957
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,84352,0.002723729330431462
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,84352,0.018313426380874732
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,189504,0.0002503025351171868
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,189504,0.000360047754085621
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,189504,0.0006274762755730699
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,189504,0.0011080043926127955
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,189504,0.008115269257898515
+adb-rain-stress,QAE (maximum likelihood),term_expected_principal_loss_usd,284128,0.00016151655903644743
+adb-rain-stress,QAE (maximum likelihood),term_joint_attachment_probability,284128,0.0001726438570407708
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,284128,0.0005299924491165984
+adb-rain-stress,QAE (maximum likelihood),term_portfolio_stop_loss_usd,284128,0.000683758729932995
+adb-rain-stress,QAE (maximum likelihood),term_both_bonds_exhausted_probability,284128,0.005541523074713628
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,128,0.15799153950457293
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,128,0.3875049436981492
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,128,1.0295390024950664
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,128,1.2523256046425633
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,128,24.617389571845134
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,256,0.1136871289279066
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,256,0.29132173365406466
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,256,0.7111508566176573
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,256,0.8288099337053775
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,256,0.9999999999999981
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,512,0.08857227610260317
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,512,0.19341579761492267
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,512,0.5590234072090637
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,512,0.6527352738819001
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,512,12.188083372319982
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,1024,0.0632298704109975
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,1024,0.140308231167981
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,1024,0.3510843990979346
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,1024,0.4153888314945187
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,1024,6.411633211658894
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,2048,0.04077293085618957
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,2048,0.10272291763576104
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,2048,0.2633157191958832
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,2048,0.33162588828081674
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,2048,3.6665422929997007
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,4096,0.029579131646564425
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,4096,0.07995949177727167
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,4096,0.17675197800762266
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,4096,0.20457563122431555
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,4096,2.312298110659902
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,8192,0.02313722668062556
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,8192,0.05204976376717895
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,8192,0.12507804635311945
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,8192,0.1422099686340022
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,8192,2.087995466974096
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,16384,0.015996737604554348
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,16384,0.03701060896767429
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,16384,0.09507469020396926
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,16384,0.10946651588315316
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,16384,1.4299442873604684
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,32768,0.010668382201270372
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,32768,0.027146156055728416
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,32768,0.06679054177655956
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,32768,0.0736258071361549
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,32768,1.0046748163770771
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,65536,0.007933960829298094
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,65536,0.0160021034597613
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,65536,0.04856193263234075
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,65536,0.0557877749723938
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,65536,0.7395709098634576
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,131072,0.005670151901485482
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,131072,0.012828132126740735
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,131072,0.03166167942483089
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,131072,0.036300727962823076
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,131072,0.5111387212213788
+adb-rain-cover,Monte Carlo,term_expected_principal_loss_usd,262144,0.003802802025479494
+adb-rain-cover,Monte Carlo,term_joint_attachment_probability,262144,0.008503375707597183
+adb-rain-cover,Monte Carlo,term_portfolio_loss_exceedance_probability,262144,0.023112713856597678
+adb-rain-cover,Monte Carlo,term_portfolio_stop_loss_usd,262144,0.02837654016233472
+adb-rain-cover,Monte Carlo,term_both_bonds_exhausted_probability,262144,0.35692501180376374
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,128,0.07312667355832275
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,128,0.3378170952655234
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,128,0.9772480493357251
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,128,1.0620334228330952
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,128,0.9999999999999981
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,256,0.03445496882370997
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,256,0.271103765652218
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,256,0.7395789227468539
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,256,0.8195878282499626
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,256,0.9999999999999981
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,512,0.018436245299551016
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,512,0.1493215238140917
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,512,0.4941722014691967
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,512,0.5622808501883106
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,512,7.505399130558192
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,1024,0.01125330546230116
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,1024,0.10474610224509741
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,1024,0.31148696314349184
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,1024,0.3940605628692842
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,1024,5.26681690339604
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,2048,0.006143079080312681
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,2048,0.06600154855331469
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,2048,0.21068661477195025
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,2048,0.23692408780773996
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,2048,3.3718852771058034
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,4096,0.003865667146763416
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,4096,0.045798645562563155
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,4096,0.13638885090424652
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,4096,0.15562170086226265
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,4096,2.8546260226082762
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,8192,0.0022986562860146456
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,8192,0.02718939575796982
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,8192,0.07091635360091211
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,8192,0.08497243757071664
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,8192,1.8890200054001745
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,16384,0.0014915560764533252
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,16384,0.01783415837664447
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,16384,0.053507411287201205
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,16384,0.05774406157916232
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,16384,1.3920550311433235
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,32768,0.0010050988959770487
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,32768,0.01192459580573607
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,32768,0.03640673037192255
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,32768,0.03680858530896397
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,32768,0.9558128202520797
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,65536,0.0006792450283668169
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,65536,0.007409123682034375
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,65536,0.023676423818248398
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,65536,0.02565558818242551
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,65536,0.6571735283772584
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,131072,0.00045349919969347796
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,131072,0.004849234323884951
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,131072,0.01393400056876066
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,131072,0.01588792268107184
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,131072,0.45475902116188316
+adb-rain-cover,Scrambled Sobol,term_expected_principal_loss_usd,262144,0.0002708758235703088
+adb-rain-cover,Scrambled Sobol,term_joint_attachment_probability,262144,0.002764889186407274
+adb-rain-cover,Scrambled Sobol,term_portfolio_loss_exceedance_probability,262144,0.009765189158092468
+adb-rain-cover,Scrambled Sobol,term_portfolio_stop_loss_usd,262144,0.010466371862584993
+adb-rain-cover,Scrambled Sobol,term_both_bonds_exhausted_probability,262144,0.32169962935007507
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,128,0.05578668475567446
+adb-rain-cover,Stratified,term_joint_attachment_probability,128,0.19254980201408772
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,128,0.5690785267463783
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,128,0.6685170770242242
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,128,6.951704519878845
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,256,0.038316939949672384
+adb-rain-cover,Stratified,term_joint_attachment_probability,256,0.14087109590662478
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,256,0.41113234975173735
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,256,0.4694929425166973
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,256,4.9463071668725425
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,512,0.027419344161586794
+adb-rain-cover,Stratified,term_joint_attachment_probability,512,0.09744249082395064
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,512,0.2760855528164651
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,512,0.3272213463928676
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,512,3.4674030137572345
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,1024,0.01919136831466797
+adb-rain-cover,Stratified,term_joint_attachment_probability,1024,0.07237278315562994
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,1024,0.20895736594177355
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,1024,0.23737943741658973
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,1024,2.75831097451404
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,2048,0.013418865224756191
+adb-rain-cover,Stratified,term_joint_attachment_probability,2048,0.05078098652720642
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,2048,0.13995336885324078
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,2048,0.1554737194773084
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,2048,1.9882394679248565
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,4096,0.00959571072980219
+adb-rain-cover,Stratified,term_joint_attachment_probability,4096,0.035946325748665534
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,4096,0.09902579488139017
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,4096,0.11550635025380915
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,4096,1.5201110880625925
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,8192,0.007182591515191171
+adb-rain-cover,Stratified,term_joint_attachment_probability,8192,0.026762841037453366
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,8192,0.07070189942462407
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,8192,0.0822951708200062
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,8192,0.9778931158131053
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,16384,0.0049045641348842515
+adb-rain-cover,Stratified,term_joint_attachment_probability,16384,0.017571606023265962
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,16384,0.04703734202777979
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,16384,0.055174546640881166
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,16384,0.7189605310499274
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,32768,0.003407272175908365
+adb-rain-cover,Stratified,term_joint_attachment_probability,32768,0.0122665743158614
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,32768,0.03511797630109976
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,32768,0.03918350848070569
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,32768,0.5009627423138178
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,65536,0.0021366472250763926
+adb-rain-cover,Stratified,term_joint_attachment_probability,65536,0.00863690569858757
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,65536,0.0242936743135118
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,65536,0.028239109588696493
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,65536,0.3495081585607596
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,131072,0.0019270655117877792
+adb-rain-cover,Stratified,term_joint_attachment_probability,131072,0.006724273880689608
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,131072,0.01701546302353443
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,131072,0.020213610577041366
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,131072,0.2526589872751407
+adb-rain-cover,Stratified,term_expected_principal_loss_usd,262144,0.0011579623389746548
+adb-rain-cover,Stratified,term_joint_attachment_probability,262144,0.004890186321160324
+adb-rain-cover,Stratified,term_portfolio_loss_exceedance_probability,262144,0.012307349667487599
+adb-rain-cover,Stratified,term_portfolio_stop_loss_usd,262144,0.014220342996796635
+adb-rain-cover,Stratified,term_both_bonds_exhausted_probability,262144,0.18346147975376748
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,128,0.09729357446197583
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,128,0.22605044807027921
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,128,0.3348408033582425
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,128,0.3875498114352985
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,128,3.2291591449536945
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,256,0.06675515315603431
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,256,0.1698768644874507
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,256,0.26467748209684006
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,256,0.27824867703976996
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,256,1.013918808498906
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,512,0.04744950608160483
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,512,0.11637050987350984
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,512,0.1753491080964489
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,512,0.1904590403742427
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,512,1.3459223723656417
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,1024,0.032486611741448776
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,1024,0.08442250013484771
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,1024,0.1321635147778233
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,1024,0.14240849552838486
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,1024,1.0407829374267137
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,2048,0.02400248991611806
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,2048,0.056918704220239064
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,2048,0.09259880172535155
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,2048,0.09223056755805498
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,2048,0.8077411529028686
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,4096,0.016436091996030005
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,4096,0.04157548575034716
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,4096,0.061871609386061656
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,4096,0.06335927139157965
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,4096,0.5151339996415405
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,8192,0.011963974038451756
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,8192,0.03142622041443798
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,8192,0.04141747162175555
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,8192,0.04437424801171115
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,8192,0.40277447383554615
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,16384,0.008541393802689718
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,16384,0.02106273104698882
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,16384,0.03188028870335815
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,16384,0.03157923355113978
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,16384,0.23467849389888665
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,32768,0.005786273930301615
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,32768,0.01396557306835931
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,32768,0.020717685796918003
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,32768,0.022938042754049426
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,32768,0.17525491079210762
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,65536,0.004200778877299047
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,65536,0.01015501439665493
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,65536,0.015899391740233183
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,65536,0.01620319391104557
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,65536,0.13177041743126838
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,131072,0.002844725394827671
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,131072,0.006982546070845447
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,131072,0.012010284780445489
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,131072,0.012340592130765687
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,131072,0.08553857369882505
+adb-rain-cover,Importance sampling,term_expected_principal_loss_usd,262144,0.002122932767434181
+adb-rain-cover,Importance sampling,term_joint_attachment_probability,262144,0.005417804843417961
+adb-rain-cover,Importance sampling,term_portfolio_loss_exceedance_probability,262144,0.008393546023555836
+adb-rain-cover,Importance sampling,term_portfolio_stop_loss_usd,262144,0.009383176098586994
+adb-rain-cover,Importance sampling,term_both_bonds_exhausted_probability,262144,0.06277510114589303
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,128,0.22549096452139133
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,128,0.2641167027719544
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,128,0.6794540488660484
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,128,1.2637713331291085
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,128,9.920969914357832
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,288,0.15675737587429173
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,288,0.13611083649818034
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,288,0.30523588721222944
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,288,0.6367212487252205
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,288,5.574187006645404
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,512,0.08220402017890617
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,512,0.12353653439658645
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,512,0.21596768578662084
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,512,0.4123695842153731
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,512,3.24673764665948
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,1408,0.030197979699091715
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,1408,0.03610322375963133
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,1408,0.13707317474585012
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,1408,0.16065963609210693
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,1408,1.4235490135538198
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,2144,0.037480198340867424
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,2144,0.02938380090363479
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,2144,0.07716272004480121
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,2144,0.13339805655302758
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,2144,1.0036768317098046
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,4960,0.009873305658416499
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,4960,0.017248672573303998
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,4960,0.057796365265391045
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,4960,0.05823525112586587
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,4960,0.45239972128193096
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,11168,0.004496980463312123
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,11168,0.005177265405064003
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,11168,0.021414415546454194
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,11168,0.027068723758549695
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,11168,0.20668189864721023
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,16704,0.0038602859263895703
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,16704,0.0039373239229876945
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,16704,0.01832725248878618
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,16704,0.022873931871586328
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,16704,0.1331982955977482
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,37568,0.002079414410718338
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,37568,0.0016991923081879437
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,37568,0.00795769959070641
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,37568,0.006630051520170946
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,37568,0.06832236852879375
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,84352,0.0009535867162792319
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,84352,0.0007239157575493328
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,84352,0.0018267975572744085
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,84352,0.0036256636543669247
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,84352,0.04445684975473726
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,189504,0.00028293370631296224
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,189504,0.0003081590540802412
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,189504,0.0013026982195398747
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,189504,0.0015524225344782918
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,189504,0.01647194400539456
+adb-rain-cover,QAE (maximum likelihood),term_expected_principal_loss_usd,284128,0.0002468333890521907
+adb-rain-cover,QAE (maximum likelihood),term_joint_attachment_probability,284128,0.00019720389244841382
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_loss_exceedance_probability,284128,0.0005535830884108179
+adb-rain-cover,QAE (maximum likelihood),term_portfolio_stop_loss_usd,284128,0.001172403799743427
+adb-rain-cover,QAE (maximum likelihood),term_both_bonds_exhausted_probability,284128,0.00888175368100047
