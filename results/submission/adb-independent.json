@@ -1,0 +1,21 @@
+{
+  "problem_id": null,
+  "scenario": "adb-independent",
+  "method": "maximum_likelihood_qae_exact_loading",
+  "execution": "quantum_simulator",
+  "estimates": {
+    "term_expected_principal_loss_usd": 10062191.9740753,
+    "term_joint_attachment_probability": 0.027161237681352386,
+    "term_portfolio_loss_exceedance_probability": 0.00718835274037799,
+    "term_portfolio_stop_loss_usd": 171228.46801131245,
+    "term_both_bonds_exhausted_probability": 3.915155263505429e-06
+  },
+  "resources": {
+    "elapsed_seconds": 0.2850561669911258,
+    "preparation_seconds": 0.14361037500202656,
+    "shots": 3040,
+    "qubits": 9,
+    "model_evaluations": 1420640
+  },
+  "notes": "Ideal statevector-verified simulation; measurement shots drawn from the verified outcome law. Elapsed time is simulator time on a laptop CPU, not quantum run time."
+}

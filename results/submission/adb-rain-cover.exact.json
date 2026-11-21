@@ -1,0 +1,20 @@
+{
+  "problem_id": null,
+  "scenario": "adb-rain-cover",
+  "method": "exact_enumeration",
+  "execution": "classical_cpu",
+  "estimates": {
+    "term_expected_principal_loss_usd": 9970051.441960663,
+    "term_joint_attachment_probability": 0.044137768730843456,
+    "term_portfolio_loss_exceedance_probability": 0.006997089316821913,
+    "term_portfolio_stop_loss_usd": 170927.46112726908,
+    "term_both_bonds_exhausted_probability": 3.163304630917887e-05
+  },
+  "resources": {
+    "elapsed_seconds": 0.030919917044229805,
+    "preparation_seconds": 0.0,
+    "shots": 0,
+    "qubits": 0,
+    "model_evaluations": 0
+  }
+}

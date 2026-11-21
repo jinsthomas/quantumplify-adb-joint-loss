@@ -1,0 +1,21 @@
+{
+  "problem_id": null,
+  "scenario": "adb-rain-cover",
+  "method": "maximum_likelihood_qae_exact_loading",
+  "execution": "quantum_simulator",
+  "estimates": {
+    "term_expected_principal_loss_usd": 9968924.834616233,
+    "term_joint_attachment_probability": 0.044128129087931095,
+    "term_portfolio_loss_exceedance_probability": 0.007003854324520034,
+    "term_portfolio_stop_loss_usd": 170623.79920990908,
+    "term_both_bonds_exhausted_probability": 3.1346644657185396e-05
+  },
+  "resources": {
+    "elapsed_seconds": 0.30293054098729044,
+    "preparation_seconds": 0.15224624995607883,
+    "shots": 3040,
+    "qubits": 9,
+    "model_evaluations": 1420640
+  },
+  "notes": "Ideal statevector-verified simulation; measurement shots drawn from the verified outcome law. Elapsed time is simulator time on a laptop CPU, not quantum run time."
+}

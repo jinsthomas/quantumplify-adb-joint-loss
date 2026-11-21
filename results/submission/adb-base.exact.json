@@ -1,0 +1,20 @@
+{
+  "problem_id": "1e05d3e5593e9f38955e8ff4271a15d65e538ed6555955aff2f84e2d3f8e5fda",
+  "scenario": "adb-base",
+  "method": "exact_enumeration",
+  "execution": "classical_cpu",
+  "estimates": {
+    "term_expected_principal_loss_usd": 10063513.348954108,
+    "term_joint_attachment_probability": 0.044137768730843456,
+    "term_portfolio_loss_exceedance_probability": 0.012046720907534033,
+    "term_portfolio_stop_loss_usd": 282354.69856614096,
+    "term_both_bonds_exhausted_probability": 3.163304630917887e-05
+  },
+  "resources": {
+    "elapsed_seconds": 0.03059937502257526,
+    "preparation_seconds": 0.0,
+    "shots": 0,
+    "qubits": 0,
+    "model_evaluations": 0
+  }
+}

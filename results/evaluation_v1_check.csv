@@ -1,0 +1,36 @@
+scenario,method,rel_rmse_term_expected_principal_loss_usd,rel_rmse_term_joint_attachment_probability,rel_rmse_term_portfolio_loss_exceedance_probability,rel_rmse_term_portfolio_stop_loss_usd,rel_rmse_term_both_bonds_exhausted_probability,pass_term_expected_principal_loss_usd,pass_term_joint_attachment_probability,pass_term_portfolio_loss_exceedance_probability,pass_term_portfolio_stop_loss_usd,pass_term_both_bonds_exhausted_probability,all_targets
+adb-base,Monte Carlo (as in the brief),0.0248,0.0509,0.0956,0.1326,1.8795,fail,fail,fail,fail,fail,FAIL
+adb-base,Scrambled Sobol (as in the brief),0.0024,0.0276,0.0565,0.0686,2.0768,pass,pass,fail,fail,fail,FAIL
+adb-base,Stratified (as in the brief),0.0081,0.0266,0.0548,0.0701,1.1060,pass,pass,fail,fail,fail,FAIL
+adb-base,Importance sampling (as in the brief),0.0117,0.0380,0.0362,0.0425,0.3919,fail,pass,pass,pass,fail,FAIL
+adb-base,"Importance sampling, tuned mixture",0.0137,0.0279,0.0270,0.0244,0.0822,fail,pass,pass,pass,pass,FAIL
+adb-base,"QAE, 7,424 queries per target",0.0065,0.0077,0.0146,0.0343,0.3189,pass,pass,pass,pass,fail,FAIL
+adb-base,"QAE, 284,128 queries per target",0.0003,0.0002,0.0004,0.0010,0.0089,pass,pass,pass,pass,pass,PASS
+adb-independent,Monte Carlo (as in the brief),0.0240,0.0707,0.1284,0.1777,4.8620,fail,fail,fail,fail,fail,FAIL
+adb-independent,Scrambled Sobol (as in the brief),0.0027,0.0461,0.0900,0.1350,6.1010,pass,pass,fail,fail,fail,FAIL
+adb-independent,Stratified (as in the brief),0.0091,0.0350,0.0763,0.0911,3.0073,pass,pass,fail,fail,fail,FAIL
+adb-independent,Importance sampling (as in the brief),0.0119,0.0355,0.0382,0.0384,0.7299,fail,pass,pass,pass,fail,FAIL
+adb-independent,"Importance sampling, tuned mixture",0.0130,0.0290,0.0299,0.0258,0.1520,fail,pass,pass,pass,pass,FAIL
+adb-independent,"QAE, 7,424 queries per target",0.0057,0.0135,0.0201,0.0400,0.8081,pass,pass,pass,pass,fail,FAIL
+adb-independent,"QAE, 284,128 queries per target",0.0002,0.0003,0.0006,0.0017,0.0228,pass,pass,pass,pass,pass,PASS
+adb-common-shock,Monte Carlo (as in the brief),0.0229,0.0481,0.0762,0.1058,1.7042,fail,pass,fail,fail,fail,FAIL
+adb-common-shock,Scrambled Sobol (as in the brief),0.0021,0.0251,0.0347,0.0453,1.7079,pass,pass,pass,pass,fail,FAIL
+adb-common-shock,Stratified (as in the brief),0.0091,0.0211,0.0455,0.0608,0.7268,pass,pass,pass,fail,fail,FAIL
+adb-common-shock,Importance sampling (as in the brief),0.0121,0.0334,0.0336,0.0354,0.3076,fail,pass,pass,pass,fail,FAIL
+adb-common-shock,"Importance sampling, tuned mixture",0.0145,0.0244,0.0237,0.0220,0.0800,fail,pass,pass,pass,pass,FAIL
+adb-common-shock,"QAE, 7,424 queries per target",0.0061,0.0095,0.0144,0.0246,0.2697,pass,pass,pass,pass,fail,FAIL
+adb-common-shock,"QAE, 284,128 queries per target",0.0003,0.0002,0.0004,0.0007,0.0069,pass,pass,pass,pass,pass,PASS
+adb-rain-stress,Monte Carlo (as in the brief),0.0216,0.0391,0.0966,0.1246,1.2169,fail,pass,fail,fail,fail,FAIL
+adb-rain-stress,Scrambled Sobol (as in the brief),0.0024,0.0197,0.0532,0.0686,1.4070,pass,pass,fail,fail,fail,FAIL
+adb-rain-stress,Stratified (as in the brief),0.0090,0.0205,0.0610,0.0744,0.7608,pass,pass,fail,fail,fail,FAIL
+adb-rain-stress,Importance sampling (as in the brief),0.0112,0.0317,0.0357,0.0416,0.3164,fail,pass,pass,pass,fail,FAIL
+adb-rain-stress,"Importance sampling, tuned mixture",0.0117,0.0253,0.0252,0.0232,0.0771,fail,pass,pass,pass,pass,FAIL
+adb-rain-stress,"QAE, 7,424 queries per target",0.0082,0.0092,0.0153,0.0362,0.2004,pass,pass,pass,pass,fail,FAIL
+adb-rain-stress,"QAE, 284,128 queries per target",0.0002,0.0002,0.0004,0.0008,0.0054,pass,pass,pass,pass,pass,PASS
+adb-rain-cover,Monte Carlo (as in the brief),0.0212,0.0487,0.1245,0.1461,1.5866,fail,pass,fail,fail,fail,FAIL
+adb-rain-cover,Scrambled Sobol (as in the brief),0.0027,0.0264,0.0770,0.0972,1.9266,pass,pass,fail,fail,fail,FAIL
+adb-rain-cover,Stratified (as in the brief),0.0067,0.0230,0.0746,0.0861,1.0508,pass,pass,fail,fail,fail,FAIL
+adb-rain-cover,Importance sampling (as in the brief),0.0114,0.0279,0.0456,0.0460,0.3575,fail,pass,pass,pass,fail,FAIL
+adb-rain-cover,"Importance sampling, tuned mixture",0.0137,0.0248,0.0271,0.0257,0.0695,fail,pass,pass,pass,pass,FAIL
+adb-rain-cover,"QAE, 7,424 queries per target",0.0068,0.0082,0.0286,0.0370,0.3243,pass,pass,pass,pass,fail,FAIL
+adb-rain-cover,"QAE, 284,128 queries per target",0.0002,0.0002,0.0005,0.0012,0.0088,pass,pass,pass,pass,pass,PASS

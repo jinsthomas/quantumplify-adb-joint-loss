@@ -1,0 +1,21 @@
+{
+  "problem_id": null,
+  "scenario": "adb-common-shock",
+  "method": "maximum_likelihood_qae_exact_loading",
+  "execution": "quantum_simulator",
+  "estimates": {
+    "term_expected_principal_loss_usd": 10064888.229243109,
+    "term_joint_attachment_probability": 0.05051792330899119,
+    "term_portfolio_loss_exceedance_probability": 0.016062155452432312,
+    "term_portfolio_stop_loss_usd": 385013.91026731953,
+    "term_both_bonds_exhausted_probability": 4.376183266116984e-05
+  },
+  "resources": {
+    "elapsed_seconds": 0.29070470796432346,
+    "preparation_seconds": 0.1492158750188537,
+    "shots": 3040,
+    "qubits": 9,
+    "model_evaluations": 1420640
+  },
+  "notes": "Ideal statevector-verified simulation; measurement shots drawn from the verified outcome law. Elapsed time is simulator time on a laptop CPU, not quantum run time."
+}

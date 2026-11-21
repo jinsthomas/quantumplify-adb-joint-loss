@@ -1,0 +1,20 @@
+{
+  "problem_id": null,
+  "scenario": "adb-rain-stress",
+  "method": "exact_enumeration",
+  "execution": "classical_cpu",
+  "estimates": {
+    "term_expected_principal_loss_usd": 11170505.731674107,
+    "term_joint_attachment_probability": 0.07046389659987556,
+    "term_portfolio_loss_exceedance_probability": 0.013215038883593162,
+    "term_portfolio_stop_loss_usd": 306285.79632751975,
+    "term_both_bonds_exhausted_probability": 6.924565668457716e-05
+  },
+  "resources": {
+    "elapsed_seconds": 0.030385041027329862,
+    "preparation_seconds": 0.0,
+    "shots": 0,
+    "qubits": 0,
+    "model_evaluations": 0
+  }
+}

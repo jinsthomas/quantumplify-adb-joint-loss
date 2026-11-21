@@ -1,0 +1,21 @@
+{
+  "problem_id": null,
+  "scenario": "adb-rain-stress",
+  "method": "maximum_likelihood_qae_exact_loading",
+  "execution": "quantum_simulator",
+  "estimates": {
+    "term_expected_principal_loss_usd": 11169392.865969703,
+    "term_joint_attachment_probability": 0.07045765901946735,
+    "term_portfolio_loss_exceedance_probability": 0.013217669288882095,
+    "term_portfolio_stop_loss_usd": 306371.42914858833,
+    "term_both_bonds_exhausted_probability": 6.878239409505209e-05
+  },
+  "resources": {
+    "elapsed_seconds": 0.3106665830127895,
+    "preparation_seconds": 0.1547986250370741,
+    "shots": 3040,
+    "qubits": 9,
+    "model_evaluations": 1420640
+  },
+  "notes": "Ideal statevector-verified simulation; measurement shots drawn from the verified outcome law. Elapsed time is simulator time on a laptop CPU, not quantum run time."
+}
