@@ -16,7 +16,8 @@ method reach higher accuracy per query than the four classical sampling baseline
 | Quantum estimator | `jointloss/qae.py` | 9-qubit amplitude-estimation circuits (state preparation A, Grover operator Q) and maximum-likelihood amplitude estimation (Suzuki et al. 2020). Gate counts by transpilation. |
 | Experiments | `run_experiments.py` | Error against query budget for every method, target and scenario; queries needed for 10% and 1% error; schedule study; gate counts. |
 | Figures | `make_figures.py` | Charts from the CSV results. |
-| Tests | `tests/` | 31 tests: Table 5 and intermediate values of the brief, unbiasedness of each baseline, circuit amplitudes, estimator accuracy. |
+| Payout versus need | `jointloss/basis_risk.py`, `run_basis_risk.py` | Two illustrative basis-risk targets (need is high but the bond pays nothing; the bond pays but need is low), computed with the same circuit and baselines. The link between payout and need is an uncalibrated assumption. |
+| Tests | `tests/` | 32 tests: Table 5 and intermediate values of the brief, unbiasedness of each baseline, circuit amplitudes, estimator accuracy. |
 
 ## Setup and execution
 
@@ -25,9 +26,10 @@ Python 3.12 is required.
 ```bash
 python3.12 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python -m pytest -q tests          # 31 tests, about 25 seconds
+.venv/bin/python -m pytest -q tests          # 32 tests, about 25 seconds
 .venv/bin/python -m jointloss.model          # prints the five targets for the five scenarios
 .venv/bin/python run_experiments.py          # full benchmark, about 16 minutes (add --quick for 2 minutes)
+.venv/bin/python run_basis_risk.py           # payout-versus-need targets, results/basis_risk.csv
 .venv/bin/python make_figures.py             # charts in results/figures/
 ```
 
@@ -66,6 +68,10 @@ the largest budget run, 262,144 paths):
 | Portfolio loss above USD 80m | 950,196* | 123,851 | 213,015 | 120,973 | 12,106 |
 | Both bonds pay | 200,410 | 39,757 | 58,577 | 103,826 | 5,849 |
 | Expected principal loss | 41,091 | 1,338 | 5,347 | 11,704 | 5,366 |
+
+Payout-versus-need targets (`basis_risk.csv`, base scenario, illustrative assumption): need high
+while the bond pays nothing 4.9%; bond pays while need is low 7.8%. These events are not rare, and
+scrambled Sobol needs the fewest queries for 1% error on both.
 
 Circuit size (`resources.csv`): 9 qubits; A has 503 two-qubit gates; one Grover iterate Q has
 1,229 two-qubit gates (two-qubit depth 1,107).

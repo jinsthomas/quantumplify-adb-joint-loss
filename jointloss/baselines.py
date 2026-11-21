@@ -33,9 +33,12 @@ class Sampler:
     that the inverse CDF is monotone in loss. This matters for Sobol points.
     """
     scenario: Scenario
+    payoff_table: dict | None = None      # optional {name: grid}; default = the five focus targets
 
     def __post_init__(self) -> None:
         sc = self.scenario
+        table = self.payoff_table or {name: payoff_grids(sc)[name] for name in TARGETS}
+        self.names = list(table)
         p = annual_distribution(sc).ravel()
         l1, l2 = loss_grids(sc)
         annual_loss = (l1 + l2).ravel()
@@ -45,7 +48,7 @@ class Sampler:
         self.cdf[-1] = 1.0
         self.coords = np.array(np.unravel_index(self.order, SHAPE)).T   # (100, 4)
         self.caps = np.array(SHAPE) - 1
-        self.payoffs = np.stack([payoff_grids(sc)[name].ravel() for name in TARGETS])  # (5, 100)
+        self.payoffs = np.stack([np.asarray(table[name], float).ravel() for name in self.names])
         self.p0 = self.p[0]                                       # annual no-payout probability
         assert annual_loss[self.order[0]] == 0.0
         # Conditional annual distribution given a payout that year.
@@ -89,7 +92,7 @@ def sobol(s: Sampler, n: int, rng: np.random.Generator, return_interval: bool = 
     also returned.
     """
     per = max(n // N_SCRAMBLES, 1)
-    means = np.empty((N_SCRAMBLES, len(TARGETS)))
+    means = np.empty((N_SCRAMBLES, len(s.names)))
     for i in range(N_SCRAMBLES):
         engine = qmc.Sobol(d=N_YEARS, scramble=True, rng=rng)
         u = engine.random(per)
@@ -109,10 +112,11 @@ def stratified(s: Sampler, n: int, rng: np.random.Generator) -> np.ndarray:
     unconditional draws afterwards. The no-payout stratum (weight p0^3) has zero
     payoff for all five targets and needs no samples. The budget is allocated
     proportionally to the stratum weights (a choice the brief leaves open).
+    Not valid for payoffs that are non-zero when nothing is paid.
     """
     weights = np.array([s.p0 ** (k - 1) * (1.0 - s.p0) for k in range(1, N_YEARS + 1)])
     alloc = np.maximum(np.round(n * weights / weights.sum()).astype(int), 1)
-    est = np.zeros(len(TARGETS))
+    est = np.zeros(len(s.names))
     for k, (w, nk) in enumerate(zip(weights, alloc)):
         positions = np.zeros((nk, N_YEARS), dtype=int)
         positions[:, k] = s.draw(rng.random(nk), s.cdf_payout)

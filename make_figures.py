@@ -81,9 +81,34 @@ def rare_tail_figure(data):
     plt.close(fig)
 
 
+def grid_figure(data, scenario, fname):
+    """Five targets on a 2 x 3 grid (portrait page), legend in the sixth cell."""
+    fig, axes = plt.subplots(2, 3, figsize=(10.5, 6.6))
+    cells = axes.ravel()
+    for ax, (target, label) in zip(cells, TARGET_LABELS.items()):
+        for method, (color, marker, ls) in STYLE.items():
+            q, e = data[(scenario, target, method)]
+            ax.loglog(q, e, color=color, marker=marker, ls=ls, ms=4, lw=1.3, label=method)
+        ax.axhline(0.10, color="k", lw=0.6, ls=":")
+        ax.axhline(0.01, color="k", lw=0.6, ls=":")
+        ax.set_title(label, fontsize=10.5)
+        ax.set_xlabel("Queries", fontsize=9)
+        ax.set_ylabel("Relative RMSE", fontsize=9)
+        ax.tick_params(labelsize=8)
+        ax.grid(True, which="major", alpha=0.3)
+    handles, labels = cells[0].get_legend_handles_labels()
+    cells[5].axis("off")
+    cells[5].legend(handles, labels, loc="center", frameon=False, fontsize=10,
+                    title="Dotted lines: 10% and 1% error")
+    fig.tight_layout()
+    fig.savefig(FIG / fname, dpi=200)
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     curves = load_curves()
     for sc in sorted({k[0] for k in curves}):
         error_figure(curves, sc, f"error_vs_queries_{sc}.png")
     rare_tail_figure(curves)
+    grid_figure(curves, "adb-base", "error_grid_adb-base.png")
     print("figures written to", FIG)

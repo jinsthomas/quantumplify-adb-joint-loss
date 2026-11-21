@@ -39,12 +39,13 @@ def register_index() -> np.ndarray:
     return r2 + 2 * r1 + 4 * b + 32 * a
 
 
-def encode(sc: Scenario, target: str) -> tuple[np.ndarray, np.ndarray, float]:
+def encode(sc: Scenario, target) -> tuple[np.ndarray, np.ndarray, float]:
     """Probabilities p(x) and scaled payoffs g(x) on the 256 register values.
 
+    `target` is the name of a focus target, or a payoff grid of shape SHAPE.
     Returns (p, g, f_max). Register values that are not valid states get p = 0.
     """
-    f = payoff_grids(sc)[target]
+    f = payoff_grids(sc)[target] if isinstance(target, str) else np.asarray(target, float)
     f_max = float(f.max())
     idx = register_index().ravel()
     p = np.zeros(2 ** N_STATE_QUBITS)
@@ -54,7 +55,7 @@ def encode(sc: Scenario, target: str) -> tuple[np.ndarray, np.ndarray, float]:
     return p, g, f_max
 
 
-def state_preparation(sc: Scenario, target: str) -> QuantumCircuit:
+def state_preparation(sc: Scenario, target) -> QuantumCircuit:
     """The operator A: load p(x), then rotate the objective qubit by the payoff."""
     p, g, _ = encode(sc, target)
     qc = QuantumCircuit(N_QUBITS, name="A")
@@ -78,7 +79,7 @@ def grover_operator(a_circuit: QuantumCircuit) -> QuantumCircuit:
     return qc
 
 
-def qae_circuit(sc: Scenario, target: str, power: int) -> QuantumCircuit:
+def qae_circuit(sc: Scenario, target, power: int) -> QuantumCircuit:
     """The circuit Q^power A, before measurement of the objective qubit."""
     a_circuit = state_preparation(sc, target)
     qc = QuantumCircuit(N_QUBITS)
@@ -95,7 +96,7 @@ def objective_probability(qc: QuantumCircuit) -> float:
     return float(Statevector(qc).probabilities([OBJECTIVE])[1])
 
 
-def amplitude(sc: Scenario, target: str) -> tuple[float, float]:
+def amplitude(sc: Scenario, target) -> tuple[float, float]:
     """Exact amplitude a = E[f] / f_max and the scale f_max, from the model."""
     p, g, f_max = encode(sc, target)
     return float((p * g).sum()), f_max

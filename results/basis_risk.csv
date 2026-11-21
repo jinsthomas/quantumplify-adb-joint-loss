@@ -1,0 +1,41 @@
+scenario,target,exact_value,method,queries_for_1pct_relative_rmse
+adb-base,term_unpaid_need_probability,0.04946933407378294,Monte Carlo,1094
+adb-base,term_unpaid_need_probability,0.04946933407378294,Scrambled Sobol,220
+adb-base,term_unpaid_need_probability,0.04946933407378294,Importance sampling,63098
+adb-base,term_unpaid_need_probability,0.04946933407378294,QAE (maximum likelihood),594
+adb-base,term_paid_low_need_probability,0.07837566634976126,Monte Carlo,34669
+adb-base,term_paid_low_need_probability,0.07837566634976126,Scrambled Sobol,2866
+adb-base,term_paid_low_need_probability,0.07837566634976126,Importance sampling,43892
+adb-base,term_paid_low_need_probability,0.07837566634976126,QAE (maximum likelihood),3274
+adb-independent,term_unpaid_need_probability,0.049484617330272936,Monte Carlo,1048
+adb-independent,term_unpaid_need_probability,0.049484617330272936,Scrambled Sobol,157
+adb-independent,term_unpaid_need_probability,0.049484617330272936,Importance sampling,80004
+adb-independent,term_unpaid_need_probability,0.049484617330272936,QAE (maximum likelihood),561
+adb-independent,term_paid_low_need_probability,0.07985820100548517,Monte Carlo,33055
+adb-independent,term_paid_low_need_probability,0.07985820100548517,Scrambled Sobol,2499
+adb-independent,term_paid_low_need_probability,0.07985820100548517,Importance sampling,46193
+adb-independent,term_paid_low_need_probability,0.07985820100548517,QAE (maximum likelihood),3309
+adb-common-shock,term_unpaid_need_probability,0.04946358496235908,Monte Carlo,1101
+adb-common-shock,term_unpaid_need_probability,0.04946358496235908,Scrambled Sobol,212
+adb-common-shock,term_unpaid_need_probability,0.04946358496235908,Importance sampling,64843
+adb-common-shock,term_unpaid_need_probability,0.04946358496235908,QAE (maximum likelihood),433
+adb-common-shock,term_paid_low_need_probability,0.07814568102240688,Monte Carlo,31044
+adb-common-shock,term_paid_low_need_probability,0.07814568102240688,Scrambled Sobol,3304
+adb-common-shock,term_paid_low_need_probability,0.07814568102240688,Importance sampling,43355
+adb-common-shock,term_paid_low_need_probability,0.07814568102240688,QAE (maximum likelihood),3187
+adb-rain-stress,term_unpaid_need_probability,0.046587039071976616,Monte Carlo,1516
+adb-rain-stress,term_unpaid_need_probability,0.046587039071976616,Scrambled Sobol,258
+adb-rain-stress,term_unpaid_need_probability,0.046587039071976616,Importance sampling,73404
+adb-rain-stress,term_unpaid_need_probability,0.046587039071976616,QAE (maximum likelihood),653
+adb-rain-stress,term_paid_low_need_probability,0.10952418102107053,Monte Carlo,24181
+adb-rain-stress,term_paid_low_need_probability,0.10952418102107053,Scrambled Sobol,2173
+adb-rain-stress,term_paid_low_need_probability,0.10952418102107053,Importance sampling,39973
+adb-rain-stress,term_paid_low_need_probability,0.10952418102107053,QAE (maximum likelihood),3310
+adb-rain-cover,term_unpaid_need_probability,0.04946933407378294,Monte Carlo,1128
+adb-rain-cover,term_unpaid_need_probability,0.04946933407378294,Scrambled Sobol,204
+adb-rain-cover,term_unpaid_need_probability,0.04946933407378294,Importance sampling,82860
+adb-rain-cover,term_unpaid_need_probability,0.04946933407378294,QAE (maximum likelihood),513
+adb-rain-cover,term_paid_low_need_probability,0.07912486200068979,Monte Carlo,30073
+adb-rain-cover,term_paid_low_need_probability,0.07912486200068979,Scrambled Sobol,2839
+adb-rain-cover,term_paid_low_need_probability,0.07912486200068979,Importance sampling,34655
+adb-rain-cover,term_paid_low_need_probability,0.07912486200068979,QAE (maximum likelihood),3072
