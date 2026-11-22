@@ -13,6 +13,22 @@ the target beats QAE on the rarest target down to about 0.5% relative error, and
 takes a fraction of a millisecond, so there is no quantum advantage on the two-country benchmark.
 A shared-shock loader makes the circuit scale linearly with the number of countries.
 
+## Results at a glance
+
+**The rarest target: where each method stands.** QAE (red) beats the samplers named in the brief
+and its error falls faster, but a tuned importance sampler (green) stays ahead until about 0.5% error.
+
+![Error against queries for the rarest target](results/figures/crossover_rare_target.png)
+
+**Scaling with the number of countries.** Loading the joint table exactly grows with the state
+space; the shared-shock loader adds about 46 two-qubit gates per country.
+
+![State preparation cost against portfolio size](results/figures/loader_scaling.png)
+
+**All five targets, QAE against the four baselines of the brief** (base scenario).
+
+![Error against query budget, five targets](results/figures/error_grid_adb-base.png)
+
 ## What it contains
 
 | Part | File | What it does |
@@ -43,6 +59,7 @@ python3.12 -m venv .venv
 .venv/bin/python run_evaluation.py           # organisers' tolerances and JSON result files
 .venv/bin/python run_basis_risk.py           # payout-versus-need targets
 .venv/bin/python make_figures.py             # charts in results/figures/
+.venv/bin/python make_summary_figures.py     # the two summary charts shown above
 .venv/bin/pip install "qdk[qre,qiskit]"      # optional, for the next line
 .venv/bin/python run_resources.py            # fault-tolerant estimate and noise limits
 ```
