@@ -156,7 +156,7 @@ Open-source libraries: NumPy, SciPy, Matplotlib, Qiskit, pytest; optional: Micro
 - Beverland et al., "Assessing requirements to scale to practical quantum advantage", arXiv:2211.07629 (2022).
 - Brassard et al., "Quantum amplitude amplification and estimation" (2002); Woerner and Egger, "Quantum risk analysis", npj Quantum Information 5, 15 (2019).
 
-## Confidentiality
+## Availability
 
-This repository is private, in line with the challenge rules on confidentiality of submissions.
-Access for the jury is available on request.
+This repository is public from the submission of the Phase 1 application (22 November 2026).
+A ZIP copy is part of the submission package.
